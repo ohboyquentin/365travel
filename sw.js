@@ -3,7 +3,7 @@
 //  Mise en cache de toutes les pages et assets
 // =============================================
 
-const CACHE_NAME = "voyage-v3";
+const CACHE_NAME = "voyage-v4";
 
 // Toutes les ressources à mettre en cache
 const FILES_TO_CACHE = [

@@ -88,6 +88,7 @@
   // =========================
   // MOBILE NAV DRAWER
   // =========================
+  document.addEventListener('DOMContentLoaded', () => {
   (function mobileNav(){
     const btn = document.getElementById('hamburger');
     const drawer = document.getElementById('drawer');
@@ -120,4 +121,5 @@
       }
     });
   })();
+  }); // DOMContentLoaded
 
