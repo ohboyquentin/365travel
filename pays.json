@@ -2610,5 +2610,816 @@
         }
       ]
     }
+  },
+  "canada": {
+    "id": "canada",
+    "nom": "Canada",
+    "drapeau": "🇨🇦",
+    "ville": "Montréal → Québec → Ottawa → Toronto → Niagara → Vancouver",
+    "titre": "Road Trip 3 semaines au Canada",
+    "image_hero": "images/montreal.jpg",
+    "alt_hero": "Canada",
+    "description_courte": "Le Canada est un pays immense aux paysages spectaculaires, mêlant métropoles cosmopolites, nature sauvage et culture francophone unique en Amérique du Nord.",
+    "description_longue": "De Montréal à Vancouver en passant par les chutes du Niagara et les Rocheuses, ce road trip de 3 semaines traverse le meilleur du Canada, entre villes vibrantes, lacs turquoise et forêts infinies.",
+    "flag_class": "flag-ca",
+    "budget_class": "budget-ca",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir au Canada ?",
+        "texte": "Juin à septembre pour profiter de la nature et des villes. Septembre-octobre pour les couleurs d'automne spectaculaires au Québec. Éviter janvier-février (très froid)."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Passeport valide + AVE (Autorisation de Voyage Électronique) obligatoire, à demander en ligne avant le départ (7 CAD, quelques minutes)."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Vols conseillés",
+        "texte": "Arrivée à Montréal (vol direct Paris ~7h30), départ depuis Vancouver (vol direct Paris ~10h). Billet open-jaw pour éviter de revenir sur ses pas."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Montréal/Québec/Ottawa/Toronto : -6h (heure d'été). Vancouver : -9h (heure d'été)."
+      }
+    ],
+    "nb_jours": 21,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Arrivée à Montréal — Vieux-Montréal",
+        "image": "",
+        "alt": "Montréal",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "texte",
+            "contenu": "Arrivée à l'aéroport Montréal-Trudeau. Récupération du véhicule de location si prévu, installation à l'hôtel."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Premier contact avec le <strong>Vieux-Montréal</strong> (A) — ruelles pavées, architecture du XVIIe siècle, ambiance européenne unique.",
+              "<strong>Place Jacques-Cartier</strong> (B), la place principale animée du Vieux-Montréal.",
+              "<strong>Basilique Notre-Dame de Montréal</strong> (C) — chef-d'œuvre néogothique aux intérieurs bleu et or absolument saisissants."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans le Vieux-Montréal — essayez la <em>poutine</em> (frites, fromage en grains, sauce brune) dans un restaurant local.",
+              "Promenade nocturne le long du <strong>Vieux-Port</strong> (D) avec vue sur le Saint-Laurent."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Montréal — Mont-Royal & Plateau",
+        "image": "",
+        "alt": "Montréal",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Montée au <strong>Mont-Royal</strong> (A) — le poumon vert de Montréal, panorama exceptionnel sur toute la ville depuis le belvédère.",
+              "Balade dans le parc du Mont-Royal dessiné par Frederick Law Olmsted (même architecte que Central Park)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans le quartier <strong>Mile End</strong> (B) — bagels montréalais chez St-Viateur ou Fairmount, les meilleurs d'Amérique du Nord."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Balade dans le <strong>Plateau Mont-Royal</strong> (C) — escaliers extérieurs colorés, murales, boutiques indépendantes, ambiance bohème.",
+              "<strong>Avenue du Mont-Royal</strong> (D) pour le shopping et les cafés locaux."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée dans le quartier <strong>Mile End ou Rosemont</strong> — bars, microbrasseries québécoises, musique live.",
+              "Essayez une bière de la <em>Brasserie Dieu du Ciel</em>, une institution montréalaise."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Montréal — Musées & quartiers",
+        "image": "",
+        "alt": "Montréal",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée des Beaux-Arts de Montréal</strong> (A) — l'un des plus grands musées du Canada, collection permanente gratuite le dimanche.",
+              "Quartier <strong>Golden Square Mile</strong> (B) — anciennes demeures victoriennes des grandes familles anglophones du XIXe siècle."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au <strong>Marché Jean-Talon</strong> (C) — le plus grand marché en plein air d'Amérique du Nord, produits québécois, fromageries, épiceries fines."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite du <strong>Biodôme de Montréal</strong> (D) — quatre écosystèmes reconstitués (forêt tropicale, Laurentides, Saint-Laurent, pôles).",
+              "<strong>Stade olympique</strong> (E) et sa tour inclinée, vestige des JO de 1976."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dernier dîner à Montréal — essayez le <em>smoked meat</em> chez Schwartz's Deli, institution depuis 1928.",
+              "Préparation pour le départ vers Québec le lendemain."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Route vers Québec — Trois-Rivières",
+        "image": "",
+        "alt": "Québec",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Départ de Montréal en voiture ou bus (2h30 jusqu'à Québec).",
+              "Arrêt à <strong>Trois-Rivières</strong> (A) à mi-chemin — vieille ville historique, cathédrale, berges du Saint-Laurent."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à Trois-Rivières dans le centre historique."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Arrivée à <strong>Québec City</strong> et installation.",
+              "Premier tour du <strong>Vieux-Québec</strong> (B) — la seule ville fortifiée d'Amérique du Nord, classée UNESCO.",
+              "<strong>Château Frontenac</strong> (C), l'hôtel le plus photographié au monde, dominant le Saint-Laurent."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans la <strong>Rue Saint-Jean</strong> (D) — l'artère la plus animée du Vieux-Québec, restaurants, bars, terrasses.",
+              "Promenade nocturne sur les <strong>Remparts</strong> (E) avec vue illuminée sur le fleuve."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "titre": "Québec City — Haute et Basse-Ville",
+        "image": "",
+        "alt": "Québec",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Plaines d'Abraham</strong> (A) — parc historique où se déroula la bataille décisive de 1759, avec vue spectaculaire sur le Saint-Laurent.",
+              "<strong>Musée des Plaines d'Abraham</strong> (B) pour comprendre l'histoire de la Nouvelle-France."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans la <strong>Basse-Ville</strong>, quartier Petit-Champlain (C) — le plus vieux quartier commercial d'Amérique du Nord, boutiques d'artisanat québécois."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Balade dans le <strong>Quartier Petit-Champlain</strong> (C) — ruelles pavées, maisons colorées, galeries d'art.",
+              "Montée par le <strong>Funiculaire du Vieux-Québec</strong> (D) pour rejoindre la Haute-Ville.",
+              "Visite de la <strong>Citadelle de Québec</strong> (E), forteresse encore en activité — relève de la garde en été."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner gastronomique québécois — cuisine du terroir avec produits locaux (sirop d'érable, canard, cerf).",
+              "Soirée dans les bars du quartier Saint-Roch (F), le quartier branché et créatif de Québec."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "titre": "Excursion — Chutes Montmorency & Île d'Orléans",
+        "image": "",
+        "alt": "Québec",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Chutes Montmorency</strong> (A) à 10 km de Québec — 83 mètres de hauteur, plus hautes que les chutes du Niagara ! Téléphérique ou escalier pour accéder au sommet.",
+              "Passerelle suspendue au-dessus des chutes pour une vue vertigineuse."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Traversée en ferry vers l'<strong>Île d'Orléans</strong> (B) — surnommée le jardin du Québec, l'île est restée quasi intacte depuis le XVIIe siècle."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Tour de l'île en voiture (67 km) — six villages historiques, vergers, érablières, fromageries.",
+              "Dégustation de produits locaux : cidre de glace, fromages, fraises, confitures artisanales.",
+              "<strong>Chocolaterie de l'Île d'Orléans</strong> (C) — arrêt gourmand incontournable."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Retour à Québec City.",
+              "Dernier dîner à Québec avant le départ pour Ottawa le lendemain."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "titre": "Route vers Ottawa — Capitale fédérale",
+        "image": "",
+        "alt": "Ottawa",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "texte",
+            "contenu": "Départ de Québec vers Ottawa (4h30 de route). Arrêt possible à <strong>Montebello</strong> (A), joli village québécois avec le célèbre Fairmont Le Château Montebello."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Arrivée à <strong>Ottawa</strong> et installation.",
+              "Premier aperçu du <strong>Parlement du Canada</strong> (B) — édifice néogothique sur la Colline du Parlement, dominant la rivière des Outaouais.",
+              "Visite guidée du Parlement possible si réservation en avance (gratuit).",
+              "Balade sur la <strong>Promenade Sussex</strong> (C) vers la résidence officielle du Premier Ministre."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans le quartier <strong>ByWard Market</strong> (D) — le marché historique d'Ottawa, le plus ancien marché public du Canada, entouré de restaurants et bars animés."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "titre": "Ottawa — Musées nationaux",
+        "image": "",
+        "alt": "Ottawa",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée canadien de l'Histoire</strong> (A), à Gatineau juste en face d'Ottawa — la plus grande salle de cérémonies amérindienne au monde, collection exceptionnelle sur l'histoire du Canada.",
+              "Vue magnifique sur le Parlement depuis le musée, de l'autre côté de la rivière."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au <strong>ByWard Market</strong> (B) — beavertails (pâtisseries typiques canadiennes), sandwichs, cuisine du monde."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée des Beaux-Arts du Canada</strong> (C) — collection permanente incluant des œuvres du Groupe des Sept, peintres emblématiques du paysage canadien.",
+              "<strong>Musée canadien de la Nature</strong> (D) si le temps le permet.",
+              "Balade le long du <strong>Canal Rideau</strong> (E), classé UNESCO — en été bateau, en hiver la plus longue patinoire du monde."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Coucher de soleil sur la <strong>Colline du Parlement</strong> (F) — les édifices s'illuminent en soirée, c'est magnifique.",
+              "Dîner et dernier soir à Ottawa."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "titre": "Route vers Toronto — Mégapole canadienne",
+        "image": "",
+        "alt": "Toronto",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "texte",
+            "contenu": "Départ d'Ottawa vers Toronto (4h30 de route ou train VIA Rail). Trajet longeant le lac Ontario."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Arrivée à <strong>Toronto</strong> et installation.",
+              "Montée à la <strong>CN Tower</strong> (A) — 553m, ancienne plus haute tour du monde. Vue à 360° sur Toronto et le lac Ontario. Ne pas manquer le plancher de verre !",
+              "Balade dans le quartier <strong>Distillery District</strong> (B) — ancienne distillerie victorienne reconvertie en quartier artistique, galeries, restaurants, cafés."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans le <strong>Distillery District</strong> ou au bord du lac.",
+              "Promenade sur le <strong>Waterfront</strong> (C) de Toronto au coucher du soleil."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "titre": "Toronto — Diversité & culture",
+        "image": "",
+        "alt": "Toronto",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Kensington Market</strong> (A) — quartier bohème et multiculturel, marché en plein air, boutiques vintage, street food du monde entier.",
+              "<strong>Chinatown de Toronto</strong> (B), l'un des plus grands d'Amérique du Nord, juste à côté."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à <strong>Kensington Market</strong> — cuisine du monde, tacos, dim sum, falafel, tout est là."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée Royal de l'Ontario</strong> (C) — le plus grand musée du Canada, dinosaures, momies égyptiennes, arts décoratifs.",
+              "Balade dans le quartier <strong>Yorkville</strong> (D) — le quartier chic de Toronto, boutiques de luxe, galeries d'art."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée dans le quartier <strong>Entertainment District</strong> (E) — bars, clubs, restaurants de toutes cuisines.",
+              "Match des Toronto Raptors (NBA) ou Blue Jays (MLB) si la saison le permet — expérience nord-américaine unique !"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "titre": "Toronto — Îles & quartiers",
+        "image": "",
+        "alt": "Toronto",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Ferry vers les <strong>Îles de Toronto</strong> (A) — archipel face à la ville, plages, parcs, vue spectaculaire sur les gratte-ciels de Toronto depuis le lac Ontario.",
+              "Location de vélo sur les îles pour en faire le tour (30 min environ)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Pique-nique ou restaurant sur les îles de Toronto."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Retour en ville et balade dans le quartier <strong>Queen West</strong> (B) — le quartier le plus branché de Toronto, street art, galeries, cafés indépendants.",
+              "<strong>Graffiti Alley</strong> (C) — ruelle entièrement couverte de fresques murales spectaculaires, incontournable."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans le <strong>Little Italy</strong> (D) ou <strong>Little Portugal</strong> (E) de Toronto — les quartiers ethniques les plus authentiques.",
+              "Dernier soir à Toronto avant l'excursion Niagara."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "titre": "Excursion — Chutes du Niagara",
+        "image": "",
+        "alt": "Niagara",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Départ de Toronto tôt (1h30 de route) vers les <strong>Chutes du Niagara</strong> (A).",
+              "Visite côté canadien — la vue est bien meilleure que du côté américain !",
+              "<strong>Horseshoe Falls</strong> (B), le fer à cheval de 57m de hauteur et 790m de largeur — le spectacle est immense."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner face aux chutes — nombreux restaurants avec vue directe sur les falls."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Maid of the Mist</strong> (C) — bateau qui s'approche au pied des chutes, vous serez trempés mais l'expérience est inoubliable (imperméables fournis).",
+              "Balade sur le <strong>Sentier des Chutes</strong> (D) pour différents points de vue.",
+              "Traversée possible vers les <strong>USA</strong> si passeport — vue depuis le côté américain très différente.",
+              "Retour à Toronto en fin d'après-midi."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Retour à Toronto ou nuit sur place à Niagara.",
+              "Préparation pour le vol vers Vancouver le lendemain."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "titre": "Vol Toronto → Vancouver — Stanley Park",
+        "image": "",
+        "alt": "Vancouver",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "texte",
+            "contenu": "Vol Toronto → Vancouver (5h). Décalage de 3h — arrivée en milieu de journée heure locale."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Installation et premier contact avec <strong>Vancouver</strong>.",
+              "<strong>Stanley Park</strong> (A) — 400 hectares de forêt tempérée en plein cœur de la ville, l'un des plus grands parcs urbains du monde.",
+              "Tour du parc à vélo sur la <strong>Seawall</strong> (B) — piste cyclable de 22 km longeant l'océan avec vue sur les montagnes enneigées."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans le quartier <strong>West End</strong> (C) ou <strong>Robson Street</strong> (D) — le centre animé de Vancouver.",
+              "Premier coucher de soleil sur l'océan Pacifique depuis la plage d'<strong>English Bay</strong> (E)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "titre": "Vancouver — Granville Island & Gastown",
+        "image": "",
+        "alt": "Vancouver",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Granville Island</strong> (A) — ancienne zone industrielle reconvertie en marché public et quartier artistique. Le marché public est l'un des meilleurs du Canada — fromages, fruits de mer, pâtisseries artisanales.",
+              "Traversée en mini-ferry depuis le centre-ville (5 min, très pittoresque)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au <strong>Granville Island Public Market</strong> — stand de homards, sushis, cuisine du monde à emporter."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Gastown</strong> (B) — le quartier historique de Vancouver, horloge à vapeur iconique, briques rouges, boutiques de designers locaux.",
+              "<strong>Chinatown de Vancouver</strong> (C), l'un des plus anciens et grands d'Amérique du Nord.",
+              "Visite du <strong>Dr. Sun Yat-Sen Classical Chinese Garden</strong> (D) — jardin Ming authentique, havre de paix en plein quartier chinois."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner de fruits de mer à Vancouver — Dungeness crab, saumon sauvage du Pacifique, huîtres de Colombie-Britannique.",
+              "Soirée dans le quartier <strong>Yaletown</strong> (E) — anciens entrepôts reconvertis en restaurants et bars branchés."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "titre": "Excursion — Whistler & montagnes",
+        "image": "",
+        "alt": "Vancouver",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Départ tôt pour <strong>Whistler</strong> (A) via la <strong>Sea to Sky Highway</strong> (B) — l'une des plus belles routes côtières du monde, entre océan et montagnes enneigées (2h de route).",
+              "Arrêt au <strong>Shannon Falls</strong> (C) — chutes de 335m visibles depuis la route."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à <strong>Whistler Village</strong> (D) — station de ski mythique des JO 2010, village alpin animé même en été."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>PEAK 2 PEAK Gondola</strong> (E) — téléphérique reliant deux sommets à 2182m d'altitude, la plus longue télécabine non soutenue au monde. Vue à couper le souffle sur glaciers et forêts.",
+              "Balade sur les sentiers alpins ou via ferrata selon la saison.",
+              "Retour à Vancouver en fin d'après-midi par la Sea to Sky Highway."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Retour à Vancouver, dîner mérité.",
+              "Soirée libre."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "titre": "Excursion — Victoria & Île de Vancouver",
+        "image": "",
+        "alt": "Vancouver",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Ferry de Vancouver vers <strong>Victoria</strong> (A), capitale de la Colombie-Britannique sur l'île de Vancouver (1h30 de traversée — magnifique).",
+              "<strong>Inner Harbour</strong> (B) de Victoria — le plus beau port de plaisance du Canada, dominé par le Parlement provincial et le Fairmont Empress Hotel."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Afternoon tea au <strong>Fairmont Empress</strong> (C) — tradition britannique incontournable à Victoria, la ville la plus anglaise du Canada."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Butchart Gardens</strong> (D) à 20 km de Victoria — jardins botaniques spectaculaires aménagés dans une ancienne carrière, 55 acres de fleurs. Illuminés en soirée en été.",
+              "Retour en ferry vers Vancouver en soirée."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Retour à Vancouver.",
+              "Dernier dîner face aux montagnes."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "titre": "Excursion — Parc National de Banff",
+        "image": "",
+        "alt": "Rocheuses",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "texte",
+            "contenu": "Vol Vancouver → Calgary (1h) puis route vers <strong>Banff</strong> (1h30). Entrée dans les <strong>Rocheuses canadiennes</strong> — paysages grandioses à couper le souffle."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Lac Louise</strong> (A) — l'un des lacs les plus photographiés au monde, eau turquoise éclatante entourée de glaciers. Vue depuis le Fairmont Chateau Lake Louise.",
+              "<strong>Moraine Lake</strong> (B) — encore plus spectaculaire que Louise, la vallée des Dix Pics se reflète dans l'eau émeraude.",
+              "Balade sur les sentiers autour des lacs."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Installation à <strong>Banff Town</strong> (C) — charmante ville de montagne au cœur du parc national.",
+              "Dîner et soirée à Banff — restaurant avec vue sur les montagnes."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "titre": "Banff — Icefields Parkway",
+        "image": "",
+        "alt": "Rocheuses",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Banff Upper Hot Springs</strong> (A) — bains naturels chauds en altitude avec vue sur les Rocheuses, une expérience unique.",
+              "Balade au <strong>Lac Minnewanka</strong> (B) — croisière possible sur ce grand lac entouré de montagnes."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Pique-nique ou restaurant à Banff Town."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Route sur l'<strong>Icefields Parkway</strong> (C) — considérée comme l'une des plus belles routes du monde, 230 km entre Banff et Jasper longeant glaciers, lacs et sommets de plus de 3000m.",
+              "Arrêt au <strong>Columbia Icefield</strong> (D) — le plus grand champ de glace des Rocheuses, balade sur le glacier Athabasca possible.",
+              "<strong>Glacier Skywalk</strong> (E) — passerelle de verre suspendue au-dessus d'un canyon glaciaire à 280m de hauteur."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Arrivée à <strong>Jasper</strong> (F) — ville plus sauvage et moins touristique que Banff.",
+              "Guet des aurores boréales possible en automne !"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "titre": "Parc National de Jasper",
+        "image": "",
+        "alt": "Rocheuses",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Maligne Lake</strong> (A) — le plus grand lac naturellement glaciaire du Canada, croisière vers l'île Spirit, entourée de pics enneigés.",
+              "<strong>Medicine Lake</strong> (B) en chemin — lac mystérieux qui disparaît en hiver (réseau souterrain)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Pique-nique au bord du Maligne Lake — décor de carte postale garanti."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Maligne Canyon</strong> (C) — gorge spectaculaire de 50m de profondeur, passerelles suspendues au-dessus des rapides.",
+              "<strong>Lac Beauvert</strong> (D) et le Fairmont Jasper Park Lodge — balade autour du lac, observation possible de wapitis et ours noirs.",
+              "Possible observation de <strong>faune sauvage</strong> (E) : wapitis, cerfs, ours noirs sont fréquents dans le parc."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dernière nuit à Jasper.",
+              "Ciel étoilé exceptionnel — Jasper est la plus grande réserve de ciel étoilé au monde (Dark Sky Preserve)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 20,
+        "titre": "Retour Calgary — Dernière journée",
+        "image": "",
+        "alt": "Calgary",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Route de Jasper vers <strong>Calgary</strong> (4h) — dernière traversée des Rocheuses.",
+              "Arrêt possible aux <strong>Hoodoos de Banff</strong> (A) — formations rocheuses érodées en forme de champignons géants."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à <strong>Calgary</strong> (B) — ville moderne et dynamique, capitale du pétrole canadien."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite rapide du centre de Calgary — <strong>Calgary Tower</strong> (C) pour une vue panoramique sur la Prairie et les Rocheuses en arrière-plan.",
+              "<strong>Stampede Park</strong> (D) — site du célèbre Calgary Stampede (rodéo annuel de juillet), musée ouvert toute l'année.",
+              "Shopping de dernière minute, souvenirs."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner à Calgary — beef Alberta, le bœuf le plus réputé du Canada.",
+              "Préparation des bagages pour le vol retour."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21,
+        "titre": "Retour — Vol Calgary/Vancouver → Paris",
+        "image": "",
+        "alt": "Canada",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "texte",
+            "contenu": "Départ de Calgary ou Vancouver selon votre billet retour. Vol direct vers Paris (~10h depuis Vancouver, ~9h depuis Calgary)."
+          },
+          {
+            "label": "Soir",
+            "type": "texte",
+            "contenu": "Arrivée à Paris. Valises pleines de souvenirs, tête pleine d'images inoubliables — du Saint-Laurent aux Rocheuses, en passant par le Niagara et l'océan Pacifique 🍁"
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Louer une voiture est indispensable pour les Rocheuses (Banff/Jasper) — prévoir le permis international si nécessaire.",
+      "Réserver les hébergements à Banff et Jasper plusieurs mois à l'avance en été — les parcs nationaux sont très fréquentés.",
+      "Acheter le <strong>Parks Canada Discovery Pass</strong> dès l'entrée à Banff — il donne accès illimité à tous les parcs nationaux du Canada pour 1 an.",
+      "Le train <strong>VIA Rail</strong> entre Montréal et Toronto est une excellente alternative à la voiture — confortable et panoramique.",
+      "Les taxes ne sont pas incluses dans les prix affichés au Canada — prévoir +13% environ (taxes fédérale + provinciale).",
+      "Télécharger l'app <strong>Parks Canada</strong> et <strong>iOverlander</strong> pour les parcs nationaux — très utile sur le terrain."
+    ],
+    "budget": {
+      "titre": "Budget 3 semaines au Canada",
+      "lignes": [
+        {
+          "categorie": "✈️ Vols A/R",
+          "prix": "600€ – 1000€",
+          "details": "Paris-Montréal + Vancouver-Paris (open-jaw)"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "80€ – 150€ / nuit",
+          "details": "Hôtels 3★, auberges de jeunesse ou Airbnb"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "40€ – 70€ / jour",
+          "details": "Restaurants mid-range, épiceries pour les pique-niques"
+        },
+        {
+          "categorie": "🚗 Transport",
+          "prix": "400€ – 600€",
+          "details": "Location voiture Rocheuses + trains + ferrys + vol intérieur"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "300€ – 500€",
+          "details": "Parks Pass + téléphériques + musées + Maid of the Mist"
+        }
+      ]
+    }
   }
 }
