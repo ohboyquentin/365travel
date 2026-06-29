@@ -227,16 +227,16 @@
     "ville": "Sofia",
     "titre": "Voyage à Sofia",
     "image_hero": "images/sofia-1.jpg",
-    "alt_hero": "Sofia",
-    "description_courte": "Sofia est la capitale de la Bulgarie, située au pied du mont Vitosha.",
-    "description_longue": "Elle combine vestiges antiques, architecture soviétique et dynamisme moderne, offrant un mélange unique d'histoire et de culture balkanique.",
+    "alt_hero": "Sofia - Cathédrale Alexandre Nevsky",
+    "description_courte": "Sofia, capitale de la Bulgarie, est une ville surprenante nichée au pied du mont Vitosha.",
+    "description_longue": "Elle mêle vestiges romains, architecture soviétique et dynamisme moderne, offrant un mélange unique d'histoire balkanique, de cafés animés et de nature accessible à deux pas du centre.",
     "flag_class": "flag-bg",
-    "budget_class": "budget-se",
+    "budget_class": "budget-bg",
     "infos": [
       {
         "emoji": "📅",
         "titre": "À quelle période partir à Sofia ?",
-        "texte": "De mai à septembre."
+        "texte": "Le printemps (avril-mai) et l'automne (septembre-octobre) sont idéaux. L'été est chaud, l'hiver permet le ski à Vitosha."
       },
       {
         "emoji": "🛂",
@@ -246,7 +246,7 @@
       {
         "emoji": "✈️",
         "titre": "Durée de vol direct depuis Paris",
-        "texte": "Entre 2h et 3h (environ 2h45)."
+        "texte": "Entre 2h30 et 3h (environ 2h45)."
       },
       {
         "emoji": "🕒",
@@ -258,182 +258,191 @@
     "jours": [
       {
         "numero": 1,
-        "titre": "Vieille Ville médiévale",
-        "image": "images/Jour 1 Budapest.png",
+        "titre": "Cœur historique de Sofia",
+        "image": "images/Jour 1 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
             "label": "Matin",
             "type": "liste",
             "contenu": [
-              "Place de l'Hôtel de Ville (Raekoja plats).",
-              "Montée à la Tour de l'Hôtel de Ville (vue panoramique).",
-              "Balade dans les ruelles médiévales (Viru Gate, Passage Sainte-Catherine)."
+              "Visite de la <strong>Cathédrale Alexandre Nevsky</strong> (A), joyau néo-byzantin du XIXe siècle, l'un des plus grands édifices orthodoxes des Balkans — entrée gratuite.",
+              "Juste à côté, l'<strong>Église Sainte-Sophie</strong> (B), qui donne son nom à la ville, datant du VIe siècle.",
+              "Balade sur le <strong>Boulevard Vitosha</strong> (C), l'artère piétonne principale de Sofia, avec vue sur la montagne au fond."
             ]
           },
           {
             "label": "Déjeuner",
             "type": "texte",
-            "contenu": "Repas dans les environs."
+            "contenu": "Déjeuner typique bulgare dans un restaurant du centre — essayez la <em>shopska salata</em> (salade tomates-concombres-feta) et le <em>banitsa</em> (feuilleté au fromage)."
           },
           {
             "label": "Après-midi",
             "type": "liste",
             "contenu": [
-              "Cathédrale Alexandre Nevsky (style orthodoxe russe).",
-              "Château de Toompea (Parlement estonien)."
+              "Visite des <strong>Ruines antiques de Serdica</strong> (D), vestiges romains du IIe siècle visibles en plein centre-ville, sous la place devant la présidence.",
+              "<strong>Église de Boyana</strong> (E) à 8 km du centre — fresques médiévales classées UNESCO, parmi les plus belles d'Europe orientale.",
+              "Retour en centre-ville et balade dans le <strong>Marché aux Femmes</strong> (<em>Zhena Pazar</em>) (F), marché couvert coloré et animé."
             ]
           },
           {
             "label": "Soir",
             "type": "liste",
             "contenu": [
-              "Dîner médiéval à Olde Hansa."
+              "Dîner dans le quartier <strong>Oborishte</strong>, le plus bohème de Sofia, plein de petits restaurants et bars.",
+              "Soirée autour de la <strong>Place Slaveykov</strong> (G), avec ses bouquinistes et ses terrasses."
             ]
           }
         ]
       },
       {
         "numero": 2,
-        "titre": "Culture & musées",
-        "image": "images/Jour 2 Budapest.png",
+        "titre": "Musées & mémoire bulgare",
+        "image": "images/Jour 2 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
             "label": "Matin",
             "type": "liste",
             "contenu": [
-              "Musée d'histoire de l'Estonie (Great Guild Hall).",
-              "Musée de la ville de Tallinn."
+              "Visite du <strong>Musée National d'Histoire</strong> (A), le plus grand de Bulgarie — trésors thraces, icônes médiévales, histoire ottomane (à 8 km, accessible en bus).",
+              "Ne pas manquer le <strong>Trésor de Panagyurishte</strong>, une collection en or massif thrace absolument spectaculaire."
             ]
           },
           {
             "label": "Déjeuner",
             "type": "texte",
-            "contenu": "Déjeuner dans le quartier rotterman modernisé."
+            "contenu": "Déjeuner au restaurant du musée ou retour en centre-ville pour un repas dans le quartier <strong>Lozenets</strong>."
           },
           {
             "label": "Après-midi",
             "type": "liste",
             "contenu": [
-              "Musée des occupations et de la liberté (Vabamu) → sur l'ère soviétique.",
-              "Balade au Kadriorg Palace (musée d'art + parc superbe)."
+              "<strong>Musée National Ethnographique</strong> (B), installé dans l'ancien Palais Royal — costumes traditionnels, objets du quotidien bulgare à travers les siècles.",
+              "Visite de la <strong>Galerie Nationale</strong> (C) juste à côté, dans le même complexe palatial.",
+              "Balade dans le <strong>Parc Borisova Gradina</strong> (D), le plus grand parc de Sofia — idéal pour décompresser en fin d'après-midi."
             ]
           },
           {
             "label": "Soir",
             "type": "liste",
             "contenu": [
-              "Dîner et soirée au quartier créatif Telliskivi (bars, street art, design)."
+              "Dîner dans le quartier <strong>Yuchbunar</strong>, quartier multiculturel avec des restaurants proposant cuisine bulgare et méditerranéenne.",
+              "Verre dans un bar du <strong>Boulevard Vitosha</strong> pour finir la soirée."
             ]
           }
         ]
       },
       {
         "numero": 3,
-        "titre": "Ambiance maritime & modernité",
-        "image": "images/Jour 3 Budapest.png",
+        "titre": "Spiritualité & nature",
+        "image": "images/Jour 3 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
             "label": "Matin",
             "type": "liste",
             "contenu": [
-              "Seaplane Harbour (Lennusadam), musée maritime interactif.",
-              "Balade le long du littoral jusqu'au quartier de Kalamaja (maisons en bois colorées)."
+              "Excursion au <strong>Monastère de Rila</strong> (A), à 120 km de Sofia — le plus grand et le plus célèbre monastère orthodoxe des Balkans, classé UNESCO. Compter 1h30 de route ou bus.",
+              "Visite de l'église du monastère et ses fresques extraordinaires du XIXe siècle.",
+              "Balade dans les forêts et montagnes environnantes."
             ]
           },
           {
             "label": "Déjeuner",
             "type": "texte",
-            "contenu": "Marché de Balti Jaam (street food et artisanat)."
+            "contenu": "Déjeuner dans un des restaurants autour du monastère de Rila — spécialités de truites de montagne fraîches."
           },
           {
             "label": "Après-midi",
             "type": "liste",
             "contenu": [
-              "Prendre un bain aux <strong>Thermes Kiraly</strong>, 2h.",
-              "Promenade dans le parc de l'île Marguerite.",
-              "<strong>Croisière</strong> sur le Danube + <strong>mémorial</strong> qui rend hommage aux victimes de l'Holocauste."
+              "Retour vers Sofia et arrêt à <strong>Boyana</strong> pour une promenade dans ce quartier résidentiel verdoyant au pied de Vitosha.",
+              "Montée en téléphérique au <strong>Mont Vitosha</strong> (B) si le temps le permet — vue panoramique sur Sofia depuis 1800m d'altitude."
             ]
           },
           {
             "label": "Soir",
             "type": "liste",
             "contenu": [
-              "Coucher de soleil au belvédère de Toompea."
+              "Retour à Sofia, dîner mérité dans un restaurant traditionnel — essayez le <em>kavarma</em> (ragoût de viande en cocotte d'argile) ou les <em>kebapcheta</em> (saucisses grillées bulgares).",
+              "Soirée libre dans le centre."
             ]
           }
         ]
       },
       {
         "numero": 4,
-        "titre": "Détente & hors des sentiers battus",
-        "image": "images/Jour 4 Budapest.png",
+        "titre": "Quartiers alternatifs & détente",
+        "image": "images/Jour 4 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
             "label": "Matin",
             "type": "liste",
             "contenu": [
-              "Jardin botanique de Tallinn.",
-              "Tour de TV de Tallinn (vue sur la ville et la mer)."
+              "Balade dans le quartier <strong>Kapana</strong> (A), le quartier créatif de Sofia — ateliers d'artistes, galeries, cafés indépendants et street art.",
+              "Visite de la <strong>Synagogue de Sofia</strong> (B), la troisième plus grande d'Europe, chef-d'œuvre de style mauresque.",
+              "<strong>Mosquée Banya Bashi</strong> (C), la seule mosquée encore en activité à Sofia, construite en 1576."
             ]
           },
           {
             "label": "Déjeuner",
             "type": "texte",
-            "contenu": "Repas dans les alentours."
+            "contenu": "Déjeuner au <strong>Marché Central de Sofia</strong> (D) — immense halle couverte avec des dizaines de stands de street food bulgare et international."
           },
           {
             "label": "Après-midi",
             "type": "liste",
             "contenu": [
-              "Retour détente dans un café cosy de la vieille ville."
+              "<strong>Bains minéraux publics de Sofia</strong> (E), bâtiment Art nouveau magnifique — les bains sont fermés mais l'extérieur et la fontaine d'eau minérale chaude gratuite valent le détour.",
+              "Dernière balade dans le <strong>Parc Zaimov</strong> (F) pour se reposer.",
+              "Derniers achats de souvenirs — rose bulgare, vins locaux, produits artisanaux."
             ]
           },
           {
             "label": "Soir",
             "type": "liste",
             "contenu": [
-              "Sauna estonien traditionnel + bière."
+              "Dîner d'adieu dans un restaurant gastronomique bulgare moderne.",
+              "Préparation pour le départ."
             ]
           }
         ]
       }
     ],
     "conseils": [
-      "Prendre la <strong>SL-Card</strong> (transport public) → valable pour métro, bus, tram et ferries.",
-      "Si tu aimes marcher, Stockholm est parfaite à pied + bateau.",
-      "Pour une ambiance locale : pause <em>Fika</em> (café + pâtisserie, comme la kanelbulle) chaque après-midi."
+      "Le <strong>Sofia City Card</strong> donne accès aux transports en commun et à des réductions sur les musées — très rentable sur 4 jours.",
+      "Les <strong>Free Walking Tours</strong> quotidiens au départ de la Cathédrale Alexandre Nevsky sont excellents pour comprendre l'histoire de la ville.",
+      "Prévois une journée entière pour le <strong>Monastère de Rila</strong> — c'est un incontournable absolu, ne le zappe pas !"
     ],
     "budget": {
-      "titre": "Budget 5 jours à Sofia",
+      "titre": "Budget 4 jours à Sofia",
       "lignes": [
         {
           "categorie": "✈️ Vol A/R",
-          "prix": "80€ – 150€",
+          "prix": "80€ – 130€",
           "details": "Depuis Paris, variable selon la saison"
         },
         {
           "categorie": "🏨 Hébergement",
-          "prix": "30€ – 70€ / nuit",
-          "details": "Airbnb ou hôtels 3★"
+          "prix": "20€ – 50€ / nuit",
+          "details": "Sofia est très abordable, hôtels 3★ peu chers"
         },
         {
           "categorie": "🍽️ Repas",
-          "prix": "15€ – 25€ / jour",
-          "details": "Restaurants locaux & street food"
+          "prix": "8€ – 15€ / jour",
+          "details": "Restaurants locaux très bon marché"
         },
         {
           "categorie": "🚇 Transports",
-          "prix": "15€ (4 jours)",
-          "details": "Pass transports"
+          "prix": "10€ (4 jours)",
+          "details": "Avec la Sofia City Card"
         },
         {
           "categorie": "🎟️ Activités",
-          "prix": "50€ – 80€",
-          "details": "Musées + visites"
+          "prix": "30€ – 60€",
+          "details": "Musées + Monastère de Rila + téléphérique"
         }
       ]
     }
