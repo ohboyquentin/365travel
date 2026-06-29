@@ -2,9 +2,7 @@
 // THEME TOGGLE (robuste)
 // =========================
 (function themeToggle() {
-  // Attendre que le DOM soit prêt
-  document.addEventListener('DOMContentLoaded', () => {
-    const root = document.documentElement;
+  const root = document.documentElement;
     const btn = document.getElementById('themeToggle');
     const icon = document.getElementById('themeIcon');
     const key = 'theme-preference'; // 'light' | 'dark' | 'auto'
@@ -84,7 +82,6 @@
 
     // DEBUG helper (affiche l'état au chargement)
     console.info('[themeToggle] initialisé — mode stocké:', stored, 'theme appliqué:', root.getAttribute('data-theme'));
-  });
 })();
 
 
