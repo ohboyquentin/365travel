@@ -1,0 +1,1136 @@
+  /* ------------------------------
+   DESIGN TOKENS (THEMEABLE)
+   ------------------------------ */
+:root {
+  /* base colors - light */
+  --bg: #f7f7f8;
+  --surface: #ffffff;
+  --text: #141417;
+  --muted: #666b76;
+  --border: #e6e7eb;
+  --primary: #111111; /* CTA/bg noir en light */
+  --primary-contrast: #ffffff;
+
+  --badge-border: #cfd2d8;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-1: 0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.08);
+  --shadow-2: 0 2px 8px rgba(0,0,0,.12), 0 16px 40px rgba(0,0,0,.12);
+
+  --container: 1140px;
+  --space-1: .4rem;
+  --space-2: .8rem;
+  --space-3: 1.2rem;
+  --space-4: 1.6rem;
+  --space-5: 2.4rem;
+  --space-6: 3.2rem;
+  --space-7: 4.8rem;
+
+  --fs-12: clamp(.72rem, .62rem + .4vw, .78rem);
+  --fs-14: clamp(.84rem, .74rem + .4vw, .9rem);
+  --fs-16: clamp(.98rem, .86rem + .5vw, 1rem);
+  --fs-18: clamp(1.05rem, .9rem + .8vw, 1.125rem);
+  --fs-22: clamp(1.25rem, 1.05rem + 1vw, 1.375rem);
+  --fs-28: clamp(1.4rem, 1rem + 2.2vw, 1.75rem);
+  --fs-48: clamp(2rem, 1.4rem + 3.2vw, 3rem);
+  --fs-72: clamp(2.6rem, 2rem + 6vw, 4.5rem);
+
+  --transition: 220ms cubic-bezier(.2,.7,.3,1);
+}
+
+/* Dark theme tokens */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d0d0f;
+    --surface: #0f1013;
+    --text: #f3f4f5;
+    --muted: #a9afbb;
+    --border: #21232a;
+    --primary: #ffffff; /* CTA blanc en dark */
+    --primary-contrast: #0d0d0f;
+    --badge-border: #2a2d36;
+  }
+}
+
+/* Forced theme via [data-theme] */
+html[data-theme="light"] {
+  --bg: #f7f7f8;
+  --surface: #ffffff;
+  --text: #141417;
+  --muted: #666b76;
+  --border: #e6e7eb;
+  --primary: #111111;
+  --primary-contrast: #ffffff;
+  --badge-border: #cfd2d8;
+}
+html[data-theme="dark"] {
+  --bg: #0d0d0f;
+  --surface: #0f1013;
+  --text: #f3f4f5;
+  --muted: #a9afbb;
+  --border: #21232a;
+  --primary: #ffffff;
+  --primary-contrast: #0d0d0f;
+  --badge-border: #2a2d36;
+}
+
+/* ------------------------------
+   RESET + BASE
+   ------------------------------ */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font: 500 var(--fs-16) ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  color: var(--text);
+  background: radial-gradient(1200px 600px at 60% -10%, rgba(255,255,255,.06), transparent 60%),
+              var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; height: auto; }
+button { font: inherit; cursor: pointer; border: none; background: none; }
+
+.container {
+  width: min(100% - 2rem, var(--container));
+  margin-inline: auto;
+}
+.stack { display: grid; gap: var(--space-5); }
+.row { display: flex; align-items: center; gap: var(--space-4); }
+
+/* ------------------------------
+   HEADER / NAV
+   ------------------------------ */
+header.site-header {
+  position: sticky; top: 0; z-index: 50;
+  backdrop-filter: saturate(1.1) blur(8px);
+  background: color-mix(in oklab, var(--bg) 92%, transparent);
+  border-bottom: 1px solid var(--border);
+}
+.nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding-block: .9rem;
+  gap: var(--space-3);
+}
+.brand {
+  display: flex; align-items: center; gap: .6rem;
+  font-weight: 800; letter-spacing: .04em;
+}
+.brand__logo {
+  inline-size: 150px; block-size: 60px;
+}
+
+/* NAV Desktop */
+nav.primary ul {
+  display: flex; gap: clamp(.8rem, 2vw, 2rem);
+  list-style: none;
+  margin: 0; padding: 0;
+  font-size: var(--fs-14);
+}
+/* Liens du menu principal en blanc */
+nav.primary > ul > li > a,
+nav.primary > ul > li > button {
+  color: #fff;
+}
+
+/* Page active */
+nav.primary a[aria-current="page"] {
+  color: #fff;
+  font-weight: 600;
+}
+nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
+
+/* Sous-menu */
+.menu-item { position: relative; }
+.submenu-toggle {
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.submenu {
+  position: absolute;
+  top: 100%; left: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  list-style: none;
+  margin: 0; padding: 0.5rem 0;
+  min-width: 180px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-5px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 999;
+  flex-direction: column;     /* aligne les éléments verticalement */
+}
+.submenu li { margin: 0; }
+.submenu a {
+  display: block;
+  padding: 0.2rem 0.8rem;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.submenu a:hover { background: var(--bg); }
+/* Affichage au survol */
+.menu-item:hover .submenu,
+.menu-item:focus-within .submenu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* Actions */
+.actions {
+  justify-self: end;
+  display: flex; align-items: center; gap: .6rem;
+}
+.btn {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: .55rem .9rem;
+  border-radius: 10px;
+  line-height: 1;
+  transition: transform var(--transition), background var(--transition), color var(--transition), border-color var(--transition);
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--ghost { background: transparent; }
+.btn--primary {
+  background: var(--primary);
+  color: var(--primary-contrast);
+  border-color: color-mix(in oklab, var(--primary) 86%, transparent);
+  font-weight: 700;
+}
+.btn--link {
+  background: transparent;
+  color: var(--text);
+  padding: 0;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.theme-toggle {
+  border-radius: 999px;
+  padding: .45rem .7rem;
+  display: inline-flex; align-items: center;
+}
+
+/* Mobile nav */
+.hamburger { display: none; }
+@media (max-width: 880px) {
+  nav.primary { display: none; }
+  .hamburger { display: inline-flex; align-items: center; gap:.5rem; }
+
+  .drawer {
+    display: none;
+    position: fixed; inset: 0 0 auto 0; top: 56px;
+    translate: 0 -8px;
+    opacity: 0; pointer-events: none;
+    transition: opacity var(--transition), translate var(--transition);
+    background: color-mix(in oklab, var(--bg) 96%, transparent);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem;
+  }
+  .drawer.open { opacity: 1; pointer-events: auto; translate: 0 0; }
+  .drawer ul { list-style: none; margin: 0; padding: 0; }
+  .drawer li { margin: .5rem 0; }
+  .drawer a { display: block; padding: .8rem 0; color: var(--text); }
+}
+/* ------------------------------
+   HERO
+   ------------------------------ */
+.hero {
+  max-width: 1000px;
+  margin: 4rem auto;
+  background: #0f0f0f;
+  border-radius: 8px;
+  padding: 3rem;
+  text-align: left;
+}
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.hero h1 span { font-weight: 700; }
+.badge {
+  display: inline-block;
+  border: 1px solid #444;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  margin: 0.5rem 0;
+  color: #aaa;
+}
+.hero p strong { color: #fff; }
+.hero-buttons {
+  margin-top: 1.5rem;
+  display: flex; justify-content: left;
+  gap: 1.5rem;
+}
+/* ==============================
+   SECTION : Nos destinations phares
+   ============================== */
+.featured-destinations {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--text);
+}
+
+.featured-destinations h2 {
+  font-size: 2.3rem;
+  margin-bottom: 0.8rem;
+  color: var(--text);
+}
+
+.featured-destinations .intro-text {
+  color: var(--text);
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+/* Cartes */
+.featured-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.featured-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-2);
+}
+
+.featured-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.featured-card h3 {
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem;
+  color: var(--text);
+}
+
+.featured-card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 1rem 1rem;
+}
+
+.featured-card .btn--small {
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+/* ==============================
+   Responsive (mobile & tablette)
+   ============================== */
+@media (max-width: 900px) {
+  .featured-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .featured-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-card {
+    width: 90%;
+  }
+
+  .featured-destinations h2 {
+    font-size: 1.8rem;
+  }
+}
+/* ==============================
+   GALERIE DÉFILANTE
+   ============================== */
+.gallery-scroll {
+  text-align: center;
+  padding: 4rem 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-scroll h2 {
+  font-size: 2.2rem;
+  color: var(--text);
+  margin-bottom: 0.8rem;
+}
+
+.gallery-intro {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* Conteneur du défilement */
+.scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-gallery {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin: 3rem auto;
+}
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 50s linear infinite; /* durée plus longue pour fluidité */
+}
+
+.scroll-track img {
+  width: 420px;   /* plus grandes images */
+  height: 260px;
+  object-fit: cover;
+  margin-right: 1rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  transition: transform 0.3s ease;
+}
+
+.scroll-track img:hover {
+  transform: scale(1.05);
+}
+
+/* Animation fluide */
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* défilement sur la moitié (car doublé) */
+  }
+}
+
+/* Option : sur mobile, on réduit un peu pour éviter qu’elles dépassent */
+@media (max-width: 600px) {
+  .scroll-track img {
+    width: 280px;
+    height: 180px;
+  }
+}
+/* ------------------------------
+   INTRO BLOC GÉNÉRIQUE
+   ------------------------------ */
+.intro-europe,
+.intro-asie,
+.intro-amerique {
+  text-align: center;
+  margin: 4rem auto 2rem;
+  max-width: 900px;
+  line-height: 1.8;
+}
+.intro-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: var(--text);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.7rem;
+}
+/* Texte en blanc */
+.intro-text p {
+  font-size: 1.1rem;
+  color: var(--text); 
+  margin-bottom: 1.2rem;
+}
+/* ------------------------------
+   STYLES PAR CONTINENT
+   ------------------------------ */
+/* Europe : bleu + étoiles dorées */
+.intro-europe h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5rem;
+  width: 70%;
+  height: 4px;
+  background: #003399;
+  border-radius: 2px;
+}
+.intro-europe h1::after {
+  content: "★ ★ ★";
+  font-size: 1rem;
+  color: #facc15;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.5rem;
+  letter-spacing: 0.5rem;
+}
+/* Asie : rouge + cercle doré */
+.intro-asie h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5rem;
+  width: 70%;
+  height: 4px;
+  background: #cc0000;
+  border-radius: 2px;
+}
+.intro-asie h1::after {
+  content: "●";
+  font-size: 1.2rem;
+  color: #facc15;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.5rem;
+}
+/* Amérique : bleu + rouge (double soulignement) */
+.intro-amerique h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5rem;
+  width: 70%;
+  height: 4px;
+  background: linear-gradient(to right, #002868 50%, #bf0a30 50%);
+  border-radius: 2px;
+}
+.intro-amerique h1::after {
+  content: "★";
+  font-size: 1.2rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.5rem;
+}
+/* HERO des pages internes (sauf accueil) */
+.hero-page {
+  display: grid;
+  gap: 1.5rem;
+  text-align: center;
+}
+.hero-page .hero-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* titre | image */
+  align-items: center;
+  gap: 2rem;
+}
+.hero-page .hero-header h1 {
+  margin: 0;
+  font-size: var(--fs-48);
+  text-align: right;
+}
+.hero-page .hero-image img {
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+.hero-page .hero-description {
+  grid-column: 1 / -1; /* occupe toute la largeur */
+  max-width: 800px;
+  margin: 0 auto;
+}
+/*Responsive : sur petits écrans, le titre et l’image passent en pile */
+@media (max-width: 768px) {
+  .hero-page .hero-header {
+    grid-template-columns: 1fr; /* une seule colonne */
+    text-align: center;
+  }
+
+  .hero-page .hero-header h1 {
+    text-align: center;
+  }
+
+  .hero-page .hero-image {
+    margin-top: 1rem;
+  }
+}
+/* ------------------------------
+   ART GRID
+   ------------------------------ */
+.section-title {
+  font-size: var(--fs-14);
+  text-transform: uppercase; letter-spacing: .12em;
+  color: var(--muted);
+  display:flex; align-items:center; justify-content:space-between;
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-4); margin-top: var(--space-6);
+}
+.art-grid {
+  margin-top: var(--space-4);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: clamp(12px, 2vw, 22px);
+}
+.card {
+  grid-column: span 4;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: clip;
+  box-shadow: var(--shadow-1);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+/* Pour que les cartes gardent leur structure */
+.card a {
+  display: block;          /* le lien occupe tout le bloc */
+  height: 100%;            /* le lien s’étend sur toute la carte */
+  color: inherit;          /* garde la couleur du texte */
+  text-decoration: none;   /* pas de soulignement */
+}
+.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
+.card__media {
+  aspect-ratio: 4/3; background: #15161a;
+  display: grid; place-items: center;
+  color: #97a0b0; font-size: var(--fs-14);
+}
+.card__body { padding: 1rem; display:grid; gap:.2rem; }
+.card__title { font-weight: 700; }
+.card__meta  { color: var(--muted); font-size: var(--fs-12); }
+
+@media (max-width: 1100px) {
+  .card { grid-column: span 6; }
+}
+@media (max-width: 640px) {
+  .card { grid-column: span 12; }
+  .hero { padding-block: var(--space-6); }
+  .hero h1 { font-size: var(--fs-48); }
+}
+/* Badge : s'arrête à la taille du texte */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 0;      /* pas d’arrondi */
+  background: none;      /* pas de fond */
+  color: #fff;           /* texte blanc */
+  margin-bottom: 1rem;
+  width: auto;
+  max-width: max-content; /* pour que ça s'arrête pile au texte */
+}
+/* HERO en 2 colonnes */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: var(--shadow-2);
+}
+/* Responsive : pile sur mobile */
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-image {
+    order: -1; /* image au-dessus du texte */
+  }
+}
+/* ==============================
+   INFO SECTION (avec couleurs Hongrie)
+   ============================== */
+.info-flag {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  position: relative;
+  overflow: hidden;
+}
+/* Liseré tricolore (par défaut transparent) */
+.info-flag::before {
+  content: "";
+  display: block;
+  height: 6px;
+  background: transparent; /* sera défini par le pays */
+  border-radius: var(--radius) var(--radius) 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* ============================
+   LISERÉ INFO PAR PAYS
+   ============================ */
+/* 🇭🇺 Hongrie : Rouge - Blanc - Vert */
+.flag-hu.info-flag::before {
+  background: linear-gradient(to right, #ce2b37 33%, #ffffff 33% 66%, #477050 66%);
+}
+/* 🇫🇷 France : Bleu - Blanc - Rouge */
+.flag-fr.info-flag::before {
+  background: linear-gradient(to right, #0055a4 33%, #ffffff 33% 66%, #ef4135 66%);
+}
+/* 🇩🇪 Allemagne : Noir - Rouge - Jaune */
+.flag-de.info-flag::before {
+  background: linear-gradient(to right, #000000 33%, #dd0000 33% 66%, #ffce00 66%);
+}
+/* 🇮🇹 Italie : Vert - Blanc - Rouge */
+.flag-it.info-flag::before {
+  background: linear-gradient(to right, #009246 33%, #ffffff 33% 66%, #ce2b37 66%);
+}
+/* 🇧🇬 Bulgarie : Blanc - Vert - Rouge */
+.flag-bg.info-flag::before {
+  background: linear-gradient(to right, #ffffff 33%, #00966e 33% 66%, #d62612 66%);
+}
+/* 🇨🇿 Tchéquie : Bleu - Blanc - Rouge */
+.flag-cz.info-flag::before {
+  background: linear-gradient(to right, #11457e 33%, #ffffff 33% 66%, #d7141a 66%);
+}
+/* 🇸🇪 Suède : Bleu - Jaune (2 bandes) */
+.flag-se.info-flag::before {
+  background: linear-gradient(to right, #006aa7 50%, #fecc00 50%);
+}
+/* 🇦🇹 Autriche : Rouge - Blanc - Rouge */
+.flag-at.info-flag::before {
+  background: linear-gradient(to right, #ff0000 33%, #ffffff 33% 66%, #ff0000 66%);
+}
+/* 🇩🇰 Danemark : Rouge - Blanc */
+.flag-dk.info-flag::before {
+  background: linear-gradient(to right, #c60c30 50%, #ffffff 50%);
+}
+/* 🇪🇪 Estonie : Bleu - Noir - Blanc */
+.flag-ee.info-flag::before {
+  background: linear-gradient(to right, #0072ce 33%, #000000 33% 66%, #ffffff 66%);
+}
+/* cz Pays-Bas : Rouge - Blanc - Bleu */
+.flag-cz.info-flag::before {
+  background: linear-gradient(to right, #ff0000 33%, #ffffff 33% 66%, #0055a4 66%);
+}
+/* gr Grèce : Bleu - Blanc */
+.flag-gr.info-flag::before {
+  background: linear-gradient(to right, #006aa7 50%, #ffffff 50%);
+}
+/* si Slovenie : Blanc - Bleu - Rouge */
+.flag-si.info-flag::before {
+  background: linear-gradient(to right, #ffffff 33%, #0055a4 33% 66%, #ef4135 66%);
+}
+/* tr Turquie : Rouge - Blanc */
+.flag-tr.info-flag::before {
+  background: linear-gradient(to right, #c60c30 50%, #ffffff 50%);
+}
+/* Titre principal */
+.info-title {
+  font-size: var(--fs-22);
+  margin-bottom: 1.5rem;
+  color: var(--text);
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+/* Grille */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+/* Sous-titres avec dégradé */
+.info-item h4 {
+  font-size: var(--fs-16);
+  color: var(--text);
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+}
+/* Texte */
+.info-item p {
+  color: var(--muted);
+  margin: 0;
+  font-size: var(--fs-14);
+}
+/* Responsive : 1 colonne sur mobile */
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* ------------------------------
+   ITINERAIRE
+   ------------------------------ */
+/* Style commun */
+.itineraire-title {
+  font-size: var(--fs-28);
+  font-weight: 700;
+  color: var(--text);
+  margin: 3rem auto 2rem;
+  text-align: center;
+  max-width: 900px;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.itineraire-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 140px;
+  margin: 0.8rem auto 0;
+  border-radius: 2px;
+}
+
+/* --- Variantes pays --- */
+
+/* Allemagne 🇩🇪 */
+.flag-de::after {
+  background: linear-gradient(to right, #000 33%, #dd0000 33% 66%, #ffcc00 66%);
+}
+
+/* Bulgarie 🇧🇬 */
+.flag-bg::after {
+  background: linear-gradient(to right, #ffffff 33%, #00966e 33% 66%, #d62612 66%);
+}
+
+/* Danemark 🇩🇰 */
+.flag-dk::after {
+  background: linear-gradient(to right, #c60c30 50%, #ffffff 50%);
+}
+
+/* Estonie 🇪🇪 */
+.flag-ee::after {
+  background: linear-gradient(to right, #4891d9 33%, #000000 33% 66%, #ffffff 66%);
+}
+
+/* France 🇫🇷 */
+.flag-fr::after {
+  background: linear-gradient(to right, #0055a4 33%, #ffffff 33% 66%, #ef4135 66%);
+}
+
+/* Hongrie 🇭🇺 */
+.flag-hu::after {
+  background: linear-gradient(to right, #ce2b37 33%, #ffffff 33% 66%, #477050 66%);
+}
+
+/* Suède 🇸🇪 */
+.flag-se::after {
+  background: linear-gradient(to right, #005eb8 50%, #fecb00 50%);
+}
+
+/* Tchéquie 🇨🇿 */
+.flag-cz::after {
+  background: linear-gradient(to right, #11457e 33%, #ffffff 33% 66%, #d7141a 66%);
+}
+
+/* Autriche 🇦🇹 */
+.flag-at::after {
+  background: linear-gradient(to right, #ed2939 33%, #ffffff 33% 66%, #ed2939 66%);
+}
+
+/* PB nl */
+.flag-cz::after {
+  background: linear-gradient(to right, #d7141a 33%, #ffffff 33% 66%, #11457e 66%);
+}
+
+/* Grece gr */
+.flag-gr::after {
+  background: linear-gradient(to right, #0055a4 50%, #ffffff 50%);
+}
+
+/* Slovenie si */
+.flag-si::after {
+  background: linear-gradient(to right, #ffffff 33%, #0055a4 33% 66%, #ef4135 66%);
+}
+/* Turquie tr */
+.flag-tr::after {
+  background: linear-gradient(to right, #ef4135 50%, #ffffff 50%);
+}
+.itineraire {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: var(--surface);
+  border-radius: 8px;
+  box-shadow: var(--shadow-1);
+  color: var(--text); /* <<< forcer le texte principal en blanc/noir selon le thème */
+}
+.jour h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+.jour h3 {
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.jour ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+.jour ul li {
+  margin-bottom: 0.4rem;
+  color: var(--text); /* <<< mettre les puces en blanc */
+}
+
+.jour p {
+  margin: 0.5rem 0;
+  color: var(--text); /* <<< mettre aussi les paragraphes en blanc */
+}
+/* ------------------------------
+   SECTIONS
+   ------------------------------ */
+.info-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+}
+
+/* Titre */
+.info-title {
+  font-size: var(--fs-24);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--text);
+}
+/* ------------------------------
+   CONSEILS PRATIQUES
+   ------------------------------ */
+.conseils-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+}
+.conseil-item {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-hover, rgba(255,255,255,0.04));
+  color: var(--text);
+  box-shadow: var(--shadow-1);
+}
+/* ------------------------------
+   BUDGET TABLEAU
+   ------------------------------ */
+.budget-table-wrapper {
+  overflow-x: auto;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.budget-table th,
+.budget-table td {
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  text-align: left;
+  color: var(--text);
+}
+
+.budget-table th {
+  background: var(--surface-hover, rgba(255,255,255,0.08));
+  font-weight: 700;
+}
+
+.budget-table tr:nth-child(even) {
+  background: var(--surface-hover, rgba(255,255,255,0.03));
+}
+/* ------------------------------
+   PERSONNALISATION PAR PAYS
+   ------------------------------ */
+/* Hongrie 🇭🇺 */
+.budget-hu .info-title {
+  border-bottom: 3px solid #ce2b37; /* rouge Hongrie */
+  padding-bottom: 0.5rem;
+}
+/* Allemagne 🇩🇪 */
+.budget-de .info-title {
+  border-bottom: 3px solid #000; /* noir Allemagne */
+}
+/* Italie 🇮🇹 */
+.budget-it .info-title {
+  border-bottom: 3px solid #008C45; /* vert Italie */
+}
+/* France 🇫🇷 */
+.budget-fr .info-title {
+  border-bottom: 3px solid #0055A4; /* bleu France */
+}
+/* Danemark dk */
+.budget-dk .info-title {
+  border-bottom: 3px solid #ce2b37; /* Rouge Danemark */
+}
+/* Suede se */
+.budget-se .info-title {
+  border-bottom: 3px solid #F5EE27; /* Jaune Suede */
+}
+/* Estonie ee */
+.budget-ee .info-title {
+  border-bottom: 3px solid #273CF5; /* Bleu Estonie */
+}
+/* Tchequie cz */
+.budget-cz .info-title {
+  border-bottom: 3px solid #ffffff; /* Blanc Tchequie */
+}
+/* Pays-Bas nl */
+.budget-nl .info-title {
+  border-bottom: 3px solid #ffffff; /* Blanc PB */
+}
+/* Grèce gr */
+.budget-gr .info-title {
+  border-bottom: 3px solid #273CF5; /* Bleu Grece */
+}
+/* Slovenie si */
+.budget-si .info-title {
+  border-bottom: 3px solid #ffffff; /* Blanc Slovénie */
+}
+/* Turquie tr */
+.budget-tr .info-title {
+  border-bottom: 3px solid #ce2b37; /* Rouge Turquie */
+}
+/* ==============================
+   FOOTER
+   ============================== */
+.site-footer {
+  background: var(--surface);
+  color: var(--text);
+  padding: 3rem 2rem 1rem;
+  border-top: 2px solid var(--primary);
+  margin-top: 4rem; /* 🔥 espace avant le footer sur toutes les pages */
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* 3 colonnes équilibrées */
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Colonne gauche */
+.footer-left {
+  text-align: left;
+}
+.footer-logo {
+  width: 100px;
+  margin-bottom: 0.5rem;
+}
+.footer-left p {
+  font-size: var(--fs-14);
+  color: var(--muted);
+}
+/* Colonne centrale : réseaux sociaux */
+.footer-center {
+  display: flex;
+  justify-content: center;
+}
+.footer-socials {
+  display: flex;
+  gap: 1.2rem;
+}
+.footer-socials img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1); /* icônes blanches */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.footer-socials a:hover img {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.footer-center a {
+  color: var(--text);
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-center a:hover {
+  color: var(--primary);
+}
+/* Colonne droite : mentions légales */
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-right nav {
+  display: flex;
+  gap: 1.2rem;
+}
+.footer-right a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: var(--fs-14);
+  transition: color 0.3s ease;
+}
+.footer-right a:hover {
+  color: var(--primary);
+}
+
+/* Ligne du bas */
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: var(--fs-12);
+  color: var(--muted);
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    justify-content: center;
+  }
+
+  .footer-right nav {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+
+
+
+

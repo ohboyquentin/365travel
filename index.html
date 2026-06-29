@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Voyage | 365TRAVEL</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js');
+      }
+    </script>
+
+</head>
+<body>
+  <!-- ==============================
+     HEADER
+     ============================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logo.png" alt="Logo 365 Travel">
+      </a>
+
+  <!-- NAVIGATION -->
+      <nav class="primary" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li class="menu-item">
+            <button class="submenu-toggle" aria-expanded="false">Destinations</button>
+            <ul class="submenu">
+              <li><a href="europe.html">Europe</a></li>
+              <li><a href="asie.html">Asie</a></li>
+              <li><a href="amerique.html">Amérique</a></li>
+            </ul>
+          </li>
+          <li><a href="gallerie.html">About</a></li>
+          <li><a href="a-propos.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button id="themeToggle" class="btn theme-toggle" aria-pressed="false" aria-label="Basculer thème">
+          <span id="themeIcon">🌞</span>
+        </button>
+        <button class="btn btn--primary" type="button">Quentin L</button>
+        <button id="hamburger" class="btn btn--ghost hamburger" type="button" aria-expanded="false" aria-controls="drawer">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Drawer = contenu cloné en JS -->
+  <div id="drawer" class="drawer container" role="dialog" aria-modal="true" aria-label="Menu"></div>
+
+  <!-- ==============================
+       HERO
+       ============================== -->
+  <section class="hero">
+    <div class="badge">100% MADE</div>
+    <h1>365<span>TRAVEL</span></h1>
+    <p><strong>Des destinations pour tous les mois de l'année.</strong></p>
+    <p>Peu importe le temps, l'endroit ou la température.</p>
+    <p>Le voyage est un besoin, une passion, un désir ou un remède.</p>
+    <div class="hero-buttons">
+      <button class="btn btn--primary">Next Travel</button>
+      <button class="btn btn--link">Last Travel</button>
+    </div>
+  </section>
+
+  <!-- ==============================
+     NOS DESTINATIONS PHARES
+     ============================== -->
+<section class="featured-destinations container">
+  <h2>🌍 Nos destinations phares</h2>
+  <p class="intro-text">
+    Partez à la découverte des continents du monde : des paysages européens chargés d’histoire,
+    aux temples mystiques d’Asie, jusqu’aux immensités américaines.
+  </p>
+
+  <div class="featured-grid">
+    <article class="featured-card">
+      <img src="images/europe.jpg" alt="Europe">
+      <h3>Europe</h3>
+      <p>Des villes culturelles et historiques, entre charme et modernité.</p>
+      <a href="europe.html" class="btn btn--small">Explorer</a>
+    </article>
+
+    <article class="featured-card">
+      <img src="images/asie.jpg" alt="Asie">
+      <h3>Asie</h3>
+      <p>De Tokyo à Bangkok, découvrez un continent fascinant et contrasté.</p>
+      <a href="asie.html" class="btn btn--small">Explorer</a>
+    </article>
+
+    <article class="featured-card">
+      <img src="images/amerique.jpg" alt="Amérique">
+      <h3>Amérique</h3>
+      <p>Des paysages spectaculaires et des cultures vibrantes à explorer.</p>
+      <a href="amerique.html" class="btn btn--small">Explorer</a>
+    </article>
+  </div>
+</section>
+
+<!-- ==============================
+     GALERIE D’INSPIRATION (Défilement horizontal)
+     ============================== -->
+<section class="gallery-scroll container">
+  <h2>📸 Galerie d’inspiration</h2>
+  <p class="gallery-intro">
+    Laissez-vous inspirer par quelques clichés emblématiques d’Europe, d’Asie et d’Amérique 🌍  
+    Un aperçu des merveilles qui vous attendent !
+  </p>
+
+  <div class="scroll-wrapper">
+    <div class="scroll-track">
+      <img src="images/image2.jpg" alt="Montagnes d'Europe">
+      <img src="images/image1.jpg" alt="Temple en Asie">
+      <img src="images/image3.jpg" alt="Plage d'Amérique du Sud">
+      <img src="images/image4.jpg" alt="Ville européenne au coucher du soleil">
+      <img src="images/image5.jpg" alt="Paysage tropical">
+      <img src="images/image6.jpg" alt="Route à travers les montagnes">
+      <img src="images/image7.jpg" alt="Fleurs de cerisier">
+      <img src="images/image8.jpg" alt="Route 66">
+      <img src="images/image9.jpg" alt="Islande">
+      <img src="images/image10.jpg" alt="Savane Afrique">
+      <!-- On répète les images pour créer un effet de boucle fluide -->
+      <img src="images/image2.jpg" alt="Montagnes d'Europe">
+      <img src="images/image1.jpg" alt="Temple en Asie">
+      <img src="images/image3.jpg" alt="Plage d'Amérique du Sud">
+      <img src="images/image4.jpg" alt="Ville européenne au coucher du soleil">
+      <img src="images/image5.jpg" alt="Paysage tropical">
+      <img src="images/image6.jpg" alt="Route à travers les montagnes">
+      <img src="images/image7.jpg" alt="Fleurs de cerisier">
+      <img src="images/image8.jpg" alt="Route 66">
+      <img src="images/image9.jpg" alt="Islande">
+      <img src="images/image10.jpg" alt="Savane Afrique">
+    </div>
+  </div>
+</section>
+
+  <!-- ==============================
+       NEXT TRAVEL
+       ============================== -->
+  <section class="container">
+    <div class="section-title">
+      <span>NEXT TRAVEL</span>
+      <a href="#" class="btn btn--ghost">View all</a>
+    </div>
+
+    <div class="art-grid">
+      <!-- Hongrie -->
+      <article class="card">
+        <a href="pays.html?id=hongrie">
+          <div class="card__media">
+            <img src="images/Hongrie_budapest.jpg" alt="Hongrie" />
+          </div>
+          <div class="card__body">
+            <div class="card__title">Hongrie 🇭🇺</div>
+            <div class="card__meta">Budapest • Tour 1</div>
+          </div>
+        </a>
+      </article>
+
+      <!-- Danemark -->
+      <article class="card">
+        <a href="pays.html?id=danemark">
+          <div class="card__media">
+            <img src="images/copenhague.jpg" alt="Danemark" />
+          </div>
+          <div class="card__body">
+            <div class="card__title">Danemark 🇩🇰</div>
+            <div class="card__meta">Copenhague • Tour 2</div>
+          </div>
+        </a>
+      </article>
+
+      <!-- Suède -->
+      <article class="card">
+        <a href="pays.html?id=suede">
+          <div class="card__media">
+            <img src="images/stockholm.jpg" alt="Suède" />
+          </div>
+          <div class="card__body">
+            <div class="card__title">Suède 🇸🇪</div>
+            <div class="card__meta">Stockholm • Tour 3</div>
+          </div>
+        </a>
+      </article>
+    </section>
+
+  <!-- ==============================
+     FOOTER
+     ============================== -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Colonne gauche : logo + texte -->
+    <a href="index.html" aria-label="Retour à l’accueil">
+    <div class="footer-col footer-left">
+      <img src="images/logo.png" alt="Logo 365 Travel" class="footer-logo">
+      <p>Explorez le monde à votre rythme 🌍</p>
+    </div>
+
+    <!-- Colonne centrale : réseaux sociaux -->
+    <div class="footer-col footer-center">
+      <div class="footer-socials" aria-label="Réseaux sociaux">
+        <a href="#" aria-label="Instagram">
+          <img src="images/icon-instagram.svg" alt="Instagram">
+        </a>
+        <a href="#" aria-label="YouTube">
+          <img src="images/icon-youtube.svg" alt="YouTube">
+        </a>
+        <a href="#" aria-label="X (Twitter)">
+          <img src="images/icon-x.svg" alt="X (Twitter)">
+        </a>
+      </div>
+    </div>
+
+    <!-- Colonne droite : liens légaux -->
+    <div class="footer-col footer-right">
+      <nav aria-label="Liens légaux">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 365 Travel — Tous droits réservés.</p>
+  </div>
+</footer>
+
+
+
+

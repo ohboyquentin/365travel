@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Destinations Asie - 365TRAVE</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js');
+      }
+    </script>
+
+</head>
+<body>
+
+  <!-- ==============================
+     HEADER
+     ============================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logo.png" alt="Logo 365 Travel">
+      </a>
+
+      <!-- NAVIGATION -->
+      <nav class="primary" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-item">
+            <button class="submenu-toggle" aria-expanded="false">Destinations</button>
+            <ul class="submenu">
+              <li><a href="europe.html">Europe</a></li>
+              <li><a href="asie.html">Asie</a></li>
+              <li><a href="amerique.html" aria-current="page">Amérique</a></li>
+            </ul>
+          </li>
+          <li><a href="gallerie.html">About</a></li>
+          <li><a href="a-propos.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button id="themeToggle" class="btn theme-toggle" aria-pressed="false" aria-label="Basculer thème">
+          <span id="themeIcon">🌞</span>
+        </button>
+        <button class="btn btn--primary" type="button">Quentin L</button>
+        <button id="hamburger" class="btn btn--ghost hamburger" type="button" aria-expanded="false" aria-controls="drawer">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+  <!-- ==============================
+       AMÉRIQUE
+       ============================== -->
+  <section class="intro-amerique">
+    <div class="intro-text">
+      <h1>🌎 Destinations en Amérique</h1>
+      <p>
+        L’Amérique est un continent immense et diversifié, s’étendant du <strong>Canada</strong> glacial aux plages ensoleillées du <strong>Brésil</strong>. 
+        Chaque pays révèle une identité forte, forgée par <em>l’histoire, la nature et la culture</em>.
+      </p>
+      <p>
+        Des gratte-ciel de <strong>New York</strong> aux temples Incas du <strong>Pérou</strong>, des plages mexicaines aux forêts amazoniennes, 
+        l’Amérique promet un voyage riche en émotions et en découvertes.
+      </p>
+      <p>
+        Aventuriers, citadins ou amoureux de la nature, ce continent saura combler toutes vos envies de voyage.
+      </p>
+    </div>
+  </section>
+
+  <section class="art-grid">
+    <article class="card"><div class="card__media"><img src="images/montreal.jpg" alt="Montréal"></div><div class="card__body"><div class="card__title">Canada 🇨🇦</div><div class="card__meta">Montréal • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/nyc.jpg" alt="New York"></div><div class="card__body"><div class="card__title">USA 🇺🇸</div><div class="card__meta">New York • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/cancun.jpg" alt="Cancun"></div><div class="card__body"><div class="card__title">Mexique 🇲🇽</div><div class="card__meta">Cancún • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/machu-picchu.jpg" alt="Pérou"></div><div class="card__body"><div class="card__title">Pérou 🇵🇪</div><div class="card__meta">Cusco • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/rio.jpg" alt="Rio de Janeiro"></div><div class="card__body"><div class="card__title">Brésil 🇧🇷</div><div class="card__meta">Rio de Janeiro • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/buenos-aires.jpg" alt="Buenos Aires"></div><div class="card__body"><div class="card__title">Argentine 🇦🇷</div><div class="card__meta">Buenos Aires • Tour</div></div></article>
+  </section>
+
+</main>

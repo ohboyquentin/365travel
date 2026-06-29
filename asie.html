@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Destinations Asie - 365TRAVE</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js');
+      }
+    </script>
+
+</head>
+<body>
+
+  <!-- ==============================
+     HEADER
+     ============================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logo.png" alt="Logo 365 Travel">
+      </a>
+
+      <!-- NAVIGATION -->
+      <nav class="primary" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-item">
+            <button class="submenu-toggle" aria-expanded="false">Destinations</button>
+            <ul class="submenu">
+              <li><a href="europe.html">Europe</a></li>
+              <li><a href="asie.html" aria-current="page">Asie</a></li>
+              <li><a href="amerique.html">Amérique</a></li>
+            </ul>
+          </li>
+          <li><a href="gallerie.html">About</a></li>
+          <li><a href="a-propos.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button id="themeToggle" class="btn theme-toggle" aria-pressed="false" aria-label="Basculer thème">
+          <span id="themeIcon">🌞</span>
+        </button>
+        <button class="btn btn--primary" type="button">Quentin L</button>
+        <button id="hamburger" class="btn btn--ghost hamburger" type="button" aria-expanded="false" aria-controls="drawer">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+  <!-- ==============================
+      ASIE
+      ============================== -->
+  <section class="intro-asie">
+    <div class="intro-text">
+      <h1>🌏 Destinations en Asie</h1>
+      <p>
+        L’Asie est un continent de contrastes saisissants, mêlant traditions millénaires et modernité fulgurante. 
+        Du <strong>Japon</strong> futuriste à la <strong>Chine</strong> ancestrale, chaque pays offre une expérience unique et inoubliable.
+      </p>
+      <p>
+        Entre temples majestueux, paysages naturels spectaculaires et mégapoles vibrantes, 
+        l’Asie séduit les voyageurs en quête de découvertes et de dépaysement.
+      </p>
+      <p>
+        Que vous soyez passionné de <strong>culture</strong>, de <strong>gastronomie</strong> 
+        ou d’<strong>aventures</strong>, l’Asie promet une immersion totale dans un monde fascinant.
+      </p>
+    </div>
+  </section>
+
+  <section class="art-grid">
+    <article class="card"><div class="card__media"><img src="images/tokyo.jpg" alt="Tokyo"></div><div class="card__body"><div class="card__title">Japon 🇯🇵</div><div class="card__meta">Tokyo • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/seoul.jpg" alt="Séoul"></div><div class="card__body"><div class="card__title">Corée du Sud 🇰🇷</div><div class="card__meta">Séoul • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/hanoi.jpg" alt="Vietnam"></div><div class="card__body"><div class="card__title">Vietnam 🇻🇳</div><div class="card__meta">Hanoï • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/angkor.jpg" alt="Cambodge"></div><div class="card__body"><div class="card__title">Cambodge 🇰🇭</div><div class="card__meta">Siem Reap • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/bangkok.jpg" alt="Thaïlande"></div><div class="card__body"><div class="card__title">Thaïlande 🇹🇭</div><div class="card__meta">Bangkok • Tour</div></div></article>
+    <article class="card"><div class="card__media"><img src="images/pekin.jpg" alt="Chine"></div><div class="card__body"><div class="card__title">Chine 🇨🇳</div><div class="card__meta">Pékin • Tour</div></div></article>
+  </section>

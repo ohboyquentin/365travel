@@ -1,0 +1,2605 @@
+{
+  "autriche": {
+    "id": "autriche",
+    "nom": "Autriche",
+    "drapeau": "🇦🇹",
+    "ville": "Vienne",
+    "titre": "Voyage à Vienne",
+    "image_hero": "images/vienne.jpg",
+    "alt_hero": "Vienne",
+    "description_courte": "Vienne, capitale de l'Autriche, est une ville élégante réputée pour son riche patrimoine impérial, ses palais somptueux comme le château de Schönbrunn et la Hofburg.",
+    "description_longue": "Elle est aussi un haut lieu de la musique classique, ayant été le foyer de Mozart, Beethoven et Strauss. Moderne et historique à la fois, Vienne séduit par sa qualité de vie, ses cafés traditionnels et sa scène culturelle dynamique.",
+    "flag_class": "flag-at",
+    "budget_class": "budget-dk",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Vienne ?",
+        "texte": "Pour Vienne et Salzbourg : le printemps et l'automne, particulièrement mai, juin et septembre. Pour les marchés de Noël : décembre bien sûr."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Compter 2h pour Vienne."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Centre historique (Innere Stadt)",
+        "image": "",
+        "alt": "Vienne",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite de Stephansdom (cathédrale Saint-Étienne).",
+              "Balade sur le Graben et le Kohlmarkt (rues élégantes)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Hofburg (palais impérial, appartements de Sissi).",
+              "Bibliothèque nationale baroque.",
+              "Café viennois au <strong>Café Central</strong> ou <strong>Demel</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Concert classique ou opéra."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Splendeur impériale",
+        "image": "",
+        "alt": "Vienne",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite du Palais de Schönbrunn (résidence d'été des Habsbourg, jardins).",
+              "Allé jusqu'à Gloriette (panorama).",
+              "Zoo de Schönbrunn (le plus ancien du monde)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans le quartier rotterman modernisé."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Départ pour le Belvédère (palais + musée).",
+              "Visite du <strong>Palais du Belvédère</strong> et son jardin.",
+              "Belvédère supérieur – la plus grande collection de <strong>Klimt</strong> au monde et « <em>Le Baiser</em> ».",
+              "Le Belvédère inférieur."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Heuriger (taverne à vin) à Grinzing."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Art & musées",
+        "image": "",
+        "alt": "Vienne",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Allé au MuseumsQuartier (quartier des musées modernes).",
+              "Visite du Musée d'Histoire de l'Art (Kunsthistorisches Museum)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Marché de Balti Jaam (street food et artisanat)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Naturhistorisches Museum (juste en face du musée d'histoire de l'art).",
+              "Pause apfelstrudel au Demel."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Balade et dîner dans le parc Prater, grande roue illuminée."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Vie viennoise",
+        "image": "",
+        "alt": "Vienne",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Karlsplatz (église baroque Saint-Charles).",
+              "Pavillons Art nouveau d'Otto Wagner."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Naschmarkt (marché alimentaire, ambiance cosmopolite)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Balade sur le Ring (Ringstrasse, tramway historique).",
+              "Café Sacher pour goûter la Sachertorte."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Musique live ou cabaret."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Achèter la <strong>Vienna Pass</strong> pour faire beaucoup de musées et palais, sinon privilégier les tickets combinés (Schönbrunn par ex.).",
+      "Utilise les trams pour te déplacer : rapides, fiables et typiques de la ville.",
+      "Goûter un café viennois dans un Kaffeehaus historique (Café Central, Café Sperl), c'est une vraie expérience culturelle."
+    ],
+    "budget": {
+      "titre": "Budget de 4 jours à Vienne",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Pass transports"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + palais + visites"
+        }
+      ]
+    }
+  },
+  "bulgarie": {
+    "id": "bulgarie",
+    "nom": "Bulgarie",
+    "drapeau": "🇧🇬",
+    "ville": "Sofia",
+    "titre": "Voyage à Sofia",
+    "image_hero": "images/sofia-1.jpg",
+    "alt_hero": "Sofia",
+    "description_courte": "Sofia est la capitale de la Bulgarie, située au pied du mont Vitosha.",
+    "description_longue": "Elle combine vestiges antiques, architecture soviétique et dynamisme moderne, offrant un mélange unique d'histoire et de culture balkanique.",
+    "flag_class": "flag-bg",
+    "budget_class": "budget-se",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Sofia ?",
+        "texte": "De mai à septembre."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 2h et 3h (environ 2h45)."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "+1 heure."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Vieille Ville médiévale",
+        "image": "images/Jour 1 Budapest.png",
+        "alt": "Sofia",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Place de l'Hôtel de Ville (Raekoja plats).",
+              "Montée à la Tour de l'Hôtel de Ville (vue panoramique).",
+              "Balade dans les ruelles médiévales (Viru Gate, Passage Sainte-Catherine)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Cathédrale Alexandre Nevsky (style orthodoxe russe).",
+              "Château de Toompea (Parlement estonien)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner médiéval à Olde Hansa."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Culture & musées",
+        "image": "images/Jour 2 Budapest.png",
+        "alt": "Sofia",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Musée d'histoire de l'Estonie (Great Guild Hall).",
+              "Musée de la ville de Tallinn."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans le quartier rotterman modernisé."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Musée des occupations et de la liberté (Vabamu) → sur l'ère soviétique.",
+              "Balade au Kadriorg Palace (musée d'art + parc superbe)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner et soirée au quartier créatif Telliskivi (bars, street art, design)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Ambiance maritime & modernité",
+        "image": "images/Jour 3 Budapest.png",
+        "alt": "Sofia",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Seaplane Harbour (Lennusadam), musée maritime interactif.",
+              "Balade le long du littoral jusqu'au quartier de Kalamaja (maisons en bois colorées)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Marché de Balti Jaam (street food et artisanat)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Prendre un bain aux <strong>Thermes Kiraly</strong>, 2h.",
+              "Promenade dans le parc de l'île Marguerite.",
+              "<strong>Croisière</strong> sur le Danube + <strong>mémorial</strong> qui rend hommage aux victimes de l'Holocauste."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Coucher de soleil au belvédère de Toompea."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Détente & hors des sentiers battus",
+        "image": "images/Jour 4 Budapest.png",
+        "alt": "Sofia",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Jardin botanique de Tallinn.",
+              "Tour de TV de Tallinn (vue sur la ville et la mer)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les alentours."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Retour détente dans un café cosy de la vieille ville."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Sauna estonien traditionnel + bière."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Prendre la <strong>SL-Card</strong> (transport public) → valable pour métro, bus, tram et ferries.",
+      "Si tu aimes marcher, Stockholm est parfaite à pied + bateau.",
+      "Pour une ambiance locale : pause <em>Fika</em> (café + pâtisserie, comme la kanelbulle) chaque après-midi."
+    ],
+    "budget": {
+      "titre": "Budget 5 jours à Sofia",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Pass transports"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  },
+  "danemark": {
+    "id": "danemark",
+    "nom": "Danemark",
+    "drapeau": "🇩🇰",
+    "ville": "Copenhague",
+    "titre": "Voyage à Copenhague",
+    "image_hero": "images/copenhague.jpg",
+    "alt_hero": "Copenhague",
+    "description_courte": "Capitale Danoise dardé entre mer du Nord et Baltique aux centaines d'îles.",
+    "description_longue": "Le plus petit des pays scandinaves est aussi le plus méridional, dans sa position géographique comme dans l'âme.",
+    "flag_class": "flag-dk",
+    "budget_class": "budget-dk",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Copenhague ?",
+        "texte": "De mai à septembre reste la meilleure période."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 1h et 2h (environ 1h45)."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 5,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Copenhague historique",
+        "image": "images/Jour 1 Danemark.png",
+        "alt": "Danemark",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite à <strong>Nyhavn</strong> : le port aux maisons colorées. (A)",
+              "Promenade en <strong>bateau-canal</strong> depuis Nyhavn → tour de 1h pour voir la ville depuis l'eau.",
+              "<strong>Amalienborg</strong> (palais royal, relève de la garde à midi). (B)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner typique : <em>smørrebrød</em> (sandwichs ouverts danois) au restaurant <em>Schønnemann</em>."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite de <strong>Kastellet</strong> (forteresse en étoile) & <strong>Petite Sirène</strong> juste à côté. (C) et (D)",
+              "Pause fika/hygge au café <em>Original Coffee</em>.",
+              "Balade dans <strong>Strøget</strong>, la rue piétonne commerçante (shopping + ambiance). Église du Saint-Esprit en option (E)",
+              "Visite <strong>Château de Christiansborg</strong>. (F)"
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner à <em>Høst</em> (gastronomie nordique moderne).",
+              "Soirée tranquille sur <strong>Nyhavn</strong> avec une bière locale."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Culture & design",
+        "image": "images/Jour 2 Danemark.png",
+        "alt": "Danemark",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite du <strong>Château de Rosenborg</strong> (trésors royaux & jardins du Roi). (B)",
+              "<strong>Musée National du Danemark</strong> (histoire et culture scandinave). (A)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au <strong>Torvehallerne</strong> (marché couvert moderne avec street food nordique). (C)"
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée du Design</strong> (design danois, mobilier, architecture). (D)",
+              "Balade dans <strong>Østerbro</strong>, quartier élégant et calme → arrêt au parc <em>Fælledparken</em>. (E)",
+              "Pause hygge dans un café cosy (<em>Democratic Coffee</em>)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner au restaurant <em>Kødbyens Fiskebar</em> (quartier des abattoirs → très branché). (F)",
+              "Verre dans le <strong>Meatpacking District</strong> (bars & ambiance locale). (G)"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Excursion à Helsingør & Hillerød",
+        "image": "images/Jour 3 Danemark.png",
+        "alt": "Danemark",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Départ pour <strong>Helsingør</strong> (45 min).",
+              "<strong>Château de Kronborg</strong> (château d'Hamlet, classé UNESCO, sur la mer). (B)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au port d'Helsingør (poisson frais)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Train pour <strong>Hillerød</strong> (45 min).",
+              "<strong>Château de Frederiksberg</strong> (<em>superbe château Renaissance entouré d'eau et de jardins</em>), <strong>Le Zoo</strong> est limitrophe au parc. (C)",
+              "Retour à Copenhague (40 min)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner à <strong>Madklubben</strong> (bonne cuisine danoise contemporaine).",
+              "Soirée détente au bord des lacs de Copenhague (<em>Søerne</em>)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Copenhague alternative & hygge",
+        "image": "images/Jour 4 Danemark.png",
+        "alt": "Danemark",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Balade à vélo dans <strong>Nørrebro</strong> → street art, boutiques alternatives, cimetière d'Assistens (où repose Hans Christian Andersen). (A)",
+              "Pause café & pâtisserie (<em>Meyers Bageri, pour la meilleure kanelsnegl</em>).",
+              "<strong>L'église Saint Sauveur de Copenhague</strong> dans le quartier de <strong>Christiania. (B)</strong>",
+              "Promenade dans <strong>Christiania</strong> (quartier autogéré, ambiance unique, street art) jusqu'à l'Opéra. (C)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au <strong>Reffen Street Food Market</strong> (cuisine du monde au bord de l'eau). (D)"
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Balade le long du port → <strong>Copenhill</strong> (piste de ski urbaine sur une centrale, vue panoramique). (E)",
+              "Pause hygge au bord de l'eau."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner gastronomique → si tu veux marquer le coup : <strong>Noma</strong> (<em>3* Michelin</em>, mais réservation des mois à l'avance), sinon <strong>Barr</strong> (<em>cuisine nordique conviviale</em>).",
+              "Dernière balade de nuit sur <strong>Nyhavn ou Strøget</strong>. (F)"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "titre": "Excursion à Roskilde & détente",
+        "image": "images/Jour 5 Danemark.png",
+        "alt": "Danemark",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Départ pour <strong>Roskilde</strong> (25min). (A)",
+              "<strong>Cathédrale de Roskilde</strong> (UNESCO, nécropole des rois danois). (B)",
+              "<strong>Musée des bateaux vikings</strong> (navires originaux + possibilité de sortie en mer l'été). (C)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au bord du fjord."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Retour à Copenhague.",
+              "Temps libre pour shopping design danois (Illums Bolighus, Hay House). (D)"
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dernière pause hygge dans un café typique.",
+              "Dîner de clôture à <em>Restaurant Schønnemann ou Aamanns</em> (smørrebrød revisités)."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Louer un vélo au moins une journée → Copenhague est la capitale mondiale du vélo 🚴.",
+      "Prendre la <strong>Copenhagen Card</strong> pour visiter beaucoup de musées + utiliser les transports (ça vaut vite le coup).",
+      "L'ambiance <strong>hygge</strong> est partout → pense à prévoir des pauses cosy dans des cafés."
+    ],
+    "budget": {
+      "titre": "Budget 5 jours à Copenhague",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Avec la Copenhagen Card"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  },
+  "estonie": {
+    "id": "estonie",
+    "nom": "Estonie",
+    "drapeau": "🇪🇪",
+    "ville": "Tallinn",
+    "titre": "Voyage à Tallinn",
+    "image_hero": "images/tallinn.jpg",
+    "alt_hero": "Tallinn",
+    "description_courte": "Tallinn nous charme par son centre historique, véritable écrin aux splendides églises, maisons et palais.",
+    "description_longue": "Soyez surpris par l'architecture moderne, le confort des hôtels, la multitude de cafés conviviaux et les galeries d'art contemporain.",
+    "flag_class": "flag-ee",
+    "budget_class": "budget-ee",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Tallinn ?",
+        "texte": "De mai à septembre."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 2h et 3h (environ 2h55)."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "+1 heure."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Vieille Ville médiévale",
+        "image": "",
+        "alt": "Tallinn",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Place de l'Hôtel de Ville (Raekoja plats).",
+              "Montée à la Tour de l'Hôtel de Ville (vue panoramique).",
+              "Balade dans les ruelles médiévales (Viru Gate, Passage Sainte-Catherine)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à <strong>III Draakon</strong> (<em>place de l'hôtel de ville</em>) – taverne médiévale bon marché et amusante."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Cathédrale Alexandre Nevsky (style orthodoxe russe).",
+              "Château de Toompea (Parlement estonien)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner médiéval à Olde Hansa."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Culture & musées",
+        "image": "",
+        "alt": "Tallinn",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Musée d'histoire de l'Estonie (Great Guild Hall).",
+              "Musée de la ville de Tallinn."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans le quartier rotterman modernisé."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Musée des occupations et de la liberté (Vabamu) → sur l'ère soviétique.",
+              "Balade au Kadriorg Palace (musée d'art + parc superbe)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner et soirée au quartier créatif Telliskivi (bars, street art, design).",
+              "Comme au <strong>F-hoone</strong> (<em>Telliskivi</em>) – moderne et branché, plats locaux revisités."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Ambiance maritime & modernité",
+        "image": "",
+        "alt": "Tallinn",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Seaplane Harbour (Lennusadam), musée maritime interactif.",
+              "Balade le long du littoral jusqu'au quartier de Kalamaja (maisons en bois colorées)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Marché de Balti Jaam (street food et artisanat)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Excursion à Lahemaa National Park, manoirs, forêts, côte sauvage (à 1h de Tallinn)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Coucher de soleil au belvédère de Toompea.",
+              "<strong>Rataskaevu 16</strong> – restaurant <em>cosy</em> avec très bon rapport qualité-prix."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Détente & hors des sentiers battus",
+        "image": "",
+        "alt": "Tallinn",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Jardin botanique de Tallinn.",
+              "Tour de TV de Tallinn (vue sur la ville et la mer)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les alentours."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Retour détente dans un café cosy de la vieille ville.",
+              "Sauna estonien traditionnel + bière."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Préparation au départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Prendre un billet combiné pour les musées (Kumu, Kadriorg, Mikkel), ça revient moins cher.",
+      "Profiter du quartier Telliskivi pour manger pas cher et dans une ambiance locale et créative.",
+      "Monter à la colline de Toompea le matin pour éviter les foules et avoir la meilleure lumière pour les photos."
+    ],
+    "budget": {
+      "titre": "Budget de 4 jours à Tallinn",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Pass transports"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  },
+  "grece": {
+    "id": "grece",
+    "nom": "Grèce",
+    "drapeau": "🇬🇷",
+    "ville": "Athènes",
+    "titre": "Voyage à Athènes",
+    "image_hero": "images/athenes.jpg",
+    "alt_hero": "Athènes",
+    "description_courte": "Athènes, capitale de la Grèce, est une ville riche en histoire et berceau de la civilisation occidentale.",
+    "description_longue": "Elle abrite des sites emblématiques comme l'Acropole et le Parthénon, témoins de son passé antique. Aujourd'hui, Athènes mêle traditions millénaires et vie urbaine moderne, avec une scène culturelle dynamique et une cuisine méditerranéenne renommée.",
+    "flag_class": "flag-gr",
+    "budget_class": "budget-gr",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Athènes ?",
+        "texte": "Le printemps (mai) et le début de l'automne (septembre-octobre)."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Compter 3h15 pour Athènes."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "+1h."
+      }
+    ],
+    "nb_jours": 5,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "L'Antique Athènes (Quartier de l'Acropole)",
+        "image": "",
+        "alt": "Athènes",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite de l'Acropole (Parthénon, Érechthéion, théâtre de Dionysos).",
+              "Musée de l'Acropole."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Quartier Plaka (ruelles, tavernes, ambiance typique)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Concert classique ou opéra."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Centre historique",
+        "image": "",
+        "alt": "Athènes",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Agora antique d'Athènes.",
+              "Temple d'Héphaïstos.",
+              "Stoa d'Attalos."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Monastiraki (marché aux puces, bazars).",
+              "Balade dans le quartier de Psiri."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Taverne à vin à Athènes."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Musées & quartiers modernes",
+        "image": "",
+        "alt": "Athènes",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Musée National d'Archéologie.",
+              "Musée Benaki."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Street food et artisanat."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Quartier Kolonaki (boutiques, galeries).",
+              "Pause café."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Balade et dîner dans le quartier Exarchia."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Excursion depuis Athènes",
+        "image": "",
+        "alt": "Athènes",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Cap Sounion et Temple de Poséidon (à 1h d'Athènes)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner en bord de mer."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Retour à Athènes.",
+              "Balade sur le Ring (Ringstrasse, tramway historique)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Musique live ou soirée grecque."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "titre": "Dernière journée & gastronomie",
+        "image": "",
+        "alt": "Athènes",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Marché central d'Athènes (Varvakios Agora).",
+              "Dernière visite du centre."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Dernier repas typique grec (mezze, souvlaki)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Shopping souvenirs.",
+              "Détente dans un café."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Préparation pour le départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Achèter le billet combiné pour l'Acropole qui inclut plusieurs sites antiques à prix réduit.",
+      "Visiter tôt le matin ou en fin d'après-midi pour éviter la chaleur et les foules.",
+      "Prendre le métro depuis l'aéroport : rapide, pratique et bien moins cher qu'un taxi."
+    ],
+    "budget": {
+      "titre": "Budget de 5 jours à Athènes",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Pass transports"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + sites antiques + visites"
+        }
+      ]
+    }
+  },
+  "hongrie": {
+    "id": "hongrie",
+    "nom": "Hongrie",
+    "drapeau": "🇭🇺",
+    "ville": "Budapest",
+    "titre": "Voyage à Budapest",
+    "image_hero": "images/Hongrie_budapest.jpg",
+    "alt_hero": "Budapest - Pont des chaînes",
+    "description_courte": "Capitale Hongroise au patrimoine architectural riche et un art de vivre original.",
+    "description_longue": "Divisée en deux par le majestueux Danube offrant un mélange de culture, bains thermaux et bars en ruines.",
+    "flag_class": "flag-hu",
+    "budget_class": "budget-hu",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Budapest ?",
+        "texte": "De avril à septembre reste la meilleure période."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 2h et 3h (environ 2h15)."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Tour du centre historique",
+        "image": "images/Jour 1 Budapest.png",
+        "alt": "Budapest",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite du centre historique avec <strong>le Parlement Hongrois</strong> (A), La <strong>Basilique Saint-Etienne</strong> (B) et <strong>l'Opéra Hongrois</strong> (C) en matinée, compter 3 heures à peu près.",
+              "Voir si un spectacle est disponible en soirée pour l'Opéra."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas ou pique nique dans le parc <strong>Varosliget</strong>, sur la place des Héros (G)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Promenade dans le parc de la ville, <strong>Varosliget</strong> (G).",
+              "Selon le temps visite du <strong>musée ethnographique</strong> (E), <strong>la maison de la musique</strong> (F) et <strong>le jardin zoologique</strong> (H).",
+              "Prendre un bain dans <strong>Les Thermes Szechenyi</strong> (I), compter 2 heures."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans Budapest.",
+              "Passer la soirée dans les bars en ruines de Budapest comme <strong>Le \"Instant Fogas Complex\", \"Le Szimpla Kert\" ou \"Le Ellató kert\"</strong> pour une bière (ou deux)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Art, culture et vie locale",
+        "image": "images/Jour 2 Budapest.png",
+        "alt": "Budapest",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite du <strong>Chateau de Buda</strong> (A) et de son quartier, visiter <strong>L'Eglise Mathias</strong> (D) et la cour de la <strong>Galerie Nationale</strong> (B) sur la colline de Buda.",
+              "Continuer vers le nord pour visiter Le <strong>Bastion des pecheurs</strong> (C) pour une vue panoramique exceptionnelle sur Budapest."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas à déterminer en fonction du temps (rapide ou restaurant)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Prendre un bain dans les <strong>Thermes Rudas</strong> (E), compter 2h en début d'après-midi.",
+              "En fin d'après midi <strong>Musée Madame Tussaud</strong> (F) et passer par <strong>Erzsébet tér</strong> (G), une place-jardin avec terrasses et cafés. Passer par <strong>Vaci Utca</strong> (H), l'artère piétonne touristique et finir par <strong>Ferenciek Tere</strong> (I) qui est la « place des Franciscains », une place centrale."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner en front de Danube et traverser le <strong>Pont des Chaines</strong> de nuit pour l'illumination."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Histoire et détente",
+        "image": "images/Jour 3 Budapest.png",
+        "alt": "Budapest",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite de la plus grande <strong>Synagogue d'Europe</strong> (A), compter 2 heures minimum.",
+              "En fin de matinée visite de <strong>la Maison de la Terreur</strong> (B)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas pour goûter les plats typiques Hongrois."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Prendre un bain aux <strong>Thermes Kiraly</strong>, 2h. (C)",
+              "Promenade dans le parc de l'île Marguerite (D) & (E).",
+              "<strong>Croisière</strong> sur le Danube + <strong>mémorial</strong> qui rend hommage aux victimes de l'Holocauste (F) & (G)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée libre avec dégustation de plats typiques Hongrois.",
+              "Sinon, soirée dans un bar en ruines de <strong>Budapest</strong>."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Escapade et Gastronomie",
+        "image": "images/Jour 4 Budapest.png",
+        "alt": "Budapest",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Aller sur le <strong>Mont Gellert</strong> (A), compter 20 minutes pour atteindre le sommet.",
+              "Monuments à voir : La <strong>Statue de Saint-Étienne</strong> (<em>Szent István szobor</em>) (C), <strong>L'église monolithe Notre-Dame des Magyars</strong> (<em>Nagyasszonya-sziklatemplom</em>) (C), La <strong>Citadelle</strong> (F), <strong>La Statue de la Liberté</strong> (E) et La <strong>Statue de Saint Gérard</strong> (<em>Szent Gellért szobor</em>) (D) et sa cascade. Un parc avec des toboggans au pied du Mont."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les alentours."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Début d'après-midi dans les <strong>Thermes de Gellért</strong> (H) pour décompresser.",
+              "<strong>Musée National Hongrois</strong>. (J)",
+              "<strong>Grand marché couvert</strong> de Budapest. (I)"
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "texte",
+            "contenu": "Préparer le retour."
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Prends la <strong>Budapest Card</strong> pour profiter de réductions et transports gratuits.",
+      "Prévois un <strong>maillot de bain</strong> : les bains thermaux font partie du quotidien hongrois.",
+      "En soirée, découvre <strong>les ruin bars</strong>, une expérience unique à Budapest."
+    ],
+    "budget": {
+      "titre": "Budget 4 jours à Budapest",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Avec la Budapest Card"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + thermes + visites"
+        }
+      ]
+    }
+  },
+  "netherlands": {
+    "id": "netherlands",
+    "nom": "Pays-Bas",
+    "drapeau": "🇳🇱",
+    "ville": "Amsterdam",
+    "titre": "Voyage à Amsterdam",
+    "image_hero": "images/amsterdam.jpg",
+    "alt_hero": "Amsterdam",
+    "description_courte": "Amsterdam est la capitale des Pays-Bas, célèbre pour ses canaux pittoresques, ses maisons étroites à l'architecture historique et ses musées de renommée mondiale.",
+    "description_longue": "Ville à taille humaine, elle se découvre facilement à vélo, au rythme d'une culture locale ouverte et tolérante. Son atmosphère unique mêle charme ancien et modernité, entre marchés aux fleurs, cafés bruns traditionnels et quartiers créatifs en pleine effervescence.",
+    "flag_class": "flag-cz",
+    "budget_class": "budget-nl",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Amsterdam ?",
+        "texte": "Le printemps : avril et mai, les 2 mois de l'année où il pleut le moins et l'automne (Septembre, Octobre)."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "3h20 en Thalys, 1h15 en avion."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Découverte des canaux & musées",
+        "image": "",
+        "alt": "Amsterdam",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Place du Dam</strong> (<em>cœur historique</em>).",
+              "Balade sur les canaux (<em>Herengracht, Keizersgracht, Prinsengracht</em>).",
+              "Musée <strong>Van Gogh</strong>."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Dans un restaurant typique des environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Rijksmuseum</strong> (<em>Rembrandt, Vermeer</em>)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée dans le quartier de <strong>Jordaan</strong> (<em>restaurants typiques, ambiance cosy</em>)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Culture & quartiers vivants",
+        "image": "",
+        "alt": "Amsterdam",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Maison d'<strong>Anne Frank</strong> (<em>réservation obligatoire</em>).",
+              "<strong>Westerkerk</strong> (<em>clocher panoramique</em>).",
+              "Balade dans le quartier des <strong>9 Straatjes</strong> (<em>petites rues commerçantes</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Marché aux fleurs flottant (<em>Bloemenmarkt</em>).",
+              "Balade dans le quartier."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée <strong>Leidseplein</strong> (<em>bars & musique live</em>)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Excursion autour d'Amsterdam",
+        "image": "",
+        "alt": "Amsterdam",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Zaanse Schans</strong> (<em>moulins traditionnels</em>, à 30 min)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Volendam & Marken</strong> (<em>villages de pêcheurs, maisons en bois</em>).",
+              "Retour en ville pour une <strong>croisière</strong> de nuit sur les canaux."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans Amsterdam."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Modernité & détente",
+        "image": "",
+        "alt": "Amsterdam",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Quartier De <strong>Pijp</strong> (marché <em>Albert Cuyp</em>, street food).",
+              "Heineken Experience."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans le centre ville."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Vondelpark</strong> (balade à vélo ou à pied).",
+              "Derniers achats & détente au bord des canaux."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Préparation pour le départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Loue ton vélo en dehors du centre (c'est moins cher et plus agréable).",
+      "Réserve les musées populaires (Rijksmuseum, Van Gogh, Anne Frank) plusieurs jours en avance.",
+      "Découvre les quartiers hors hyper-centre comme De Pijp ou Jordaan pour un Amsterdam plus local."
+    ],
+    "budget": {
+      "titre": "Budget 4 jours à Amsterdam",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Pass transports"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  },
+  "slovenie": {
+    "id": "slovenie",
+    "nom": "Slovénie",
+    "drapeau": "🇸🇮",
+    "ville": "Ljubljana",
+    "titre": "Voyage à Ljubljana",
+    "image_hero": "images/slovenie.jpg",
+    "alt_hero": "Ljubljana",
+    "description_courte": "Ljubljana, capitale de la Slovénie, est une ville charmante et à taille humaine, traversée par la rivière Ljubljanica et dominée par un château médiéval.",
+    "description_longue": "Elle séduit par son centre historique piéton, ses ponts emblématiques comme le Triple Pont, et son architecture mêlant styles baroque, art nouveau et contemporain. Vibrante et verte, Ljubljana est aussi reconnue pour son engagement écologique et sa vie culturelle dynamique.",
+    "flag_class": "flag-si",
+    "budget_class": "budget-si",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Ljubljana ?",
+        "texte": "Entre juin et fin septembre."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "1h45 pour Ljubljana."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Vieille ville & château",
+        "image": "",
+        "alt": "Ljubljana",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite de la <strong>Place Prešeren et Tromostovje</strong> (triple pont).",
+              "Balade dans la vieille ville piétonne (<em>Cankarjevo, Mestni trg</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite de la <strong>Cathédrale Saint-Nicolas</strong>.",
+              "Visite du <strong>Château de Ljubljana</strong> (<em>funiculaire + panorama sur la ville</em>)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée le long de la rivière <strong>Ljubljanica</strong> (<em>bars & restos</em>)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Nature & culture",
+        "image": "",
+        "alt": "Ljubljana",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Promenade dans le parc <strong>Tivoli</strong>.",
+              "Visite du <strong>Musée National de Slovénie</strong>."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Balade à <strong>Metelkova Mesto</strong> (<em>quartier alternatif avec street art</em>)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée typique dans une <strong>gostilna</strong> (<em>taverne slovène</em>)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Excursion Lac de Bled (à 1h de bus/train)",
+        "image": "",
+        "alt": "Ljubljana",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Lac de Bled</strong> : balade autour du lac (<em>~6 km</em>).",
+              "Visite du <strong>Château de Bled</strong> (<em>vue magnifique</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans les environs."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Prendre le bateau « pletna » vers l'île et son église.",
+              "Dégustation de la fameuse crème pâtissière de Bled (<em>kremšnita</em>)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Retour et dîner en ville."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Excursion Vallée de Bohinj ou Postojna",
+        "image": "",
+        "alt": "Ljubljana",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Départ pour le <strong>Lac Bohinj</strong>.",
+              "Prendre le téléphérique <strong>Vogel</strong> pour panorama alpin."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner autour du Lac ou à <strong>Postojna</strong>."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Départ pour les <strong>Grottes de Postojna</strong>.",
+              "Visite du <strong>Château de Predjama</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dernier repas et préparation pour le départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Tout est faisable à pied, mais tu peux prendre un vélo gratuit via le système BicikeLJ.",
+      "Réserver une excursion d'une journée au lac de Bled (facilement accessible en bus ou voiture).",
+      "Monter au château en funiculaire pour la vue sur la ville et les Alpes en arrière-plan."
+    ],
+    "budget": {
+      "titre": "Budget 4 jours à Ljubljana",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Pass transports"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  },
+  "tchequie": {
+    "id": "tchequie",
+    "nom": "Tchéquie",
+    "drapeau": "🇨🇿",
+    "ville": "Prague",
+    "titre": "Voyage à Prague",
+    "image_hero": "images/pont-charles-prague.jpg",
+    "alt_hero": "Prague",
+    "description_courte": "Prague, capitale de la République tchèque, est célèbre pour son centre médiéval préservé, son château imposant et son atmosphère romantique.",
+    "description_longue": "Traversée par la Vltava, elle attire par son charme architectural et sa riche tradition artistique.",
+    "flag_class": "flag-cz",
+    "budget_class": "budget-cz",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Prague ?",
+        "texte": "Prague peut se visiter à toute époque de l'année. En hiver, la vue de la ville enneigée est également un enchantement."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 1h et 2h (environ 1h45)."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 5,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Vieille Ville & ambiance pragoise",
+        "image": "",
+        "alt": "Prague",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Staroměstské náměstí</strong> (<em>Place de la Vieille Ville</em>). Cœur historique avec l'Horloge astronomique.",
+              "<strong>Église de Notre-Dame du Týn</strong> (<em>icône gothique de Prague</em>).",
+              "Balade dans les ruelles médiévales → maisons colorées, passages secrets."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans une brasserie traditionnelle (essayez le <em>guláš</em> ou un <em>svíčková</em>)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Pont Charles</strong> (<em>Karlův most</em>) → sculptures baroques, vue sur le château.",
+              "Quartier juif (<em>Josefov</em>) : Vieille <strong>Nouvelle Synagogue, musée juif</strong>.",
+              "<strong>Cimetière juif et musée juif</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Bière locale dans une brasserie historique (<em>U Fleků</em> par ex.)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Château de Prague & Mala Strana",
+        "image": "",
+        "alt": "Prague",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Montée au <strong>Château de Prague</strong> (<em>Hradčany</em>).",
+              "<strong>Cathédrale Saint-Guy</strong> (chef-d'œuvre gothique).",
+              "<strong>Ancien Palais royal</strong>.",
+              "<strong>Ruelle d'Or</strong> (<em>maisons colorées, alchimistes et Franz Kafka</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner avec vue sur Prague."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Mala Strana</strong> (<em>Petit Côté</em>).",
+              "<strong>Église Saint-Nicolas et Jardins baroques</strong> (<em>Wallenstein, Vrtba</em>)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Balade romantique le long de la <strong>Vltava</strong> (vue sur le <em>Pont Charles</em> illuminé)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Nouvelles inspirations",
+        "image": "",
+        "alt": "Prague",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Nouvelle Ville (Nové Město).",
+              "<strong>Place Venceslas</strong> (<em>lieu des révolutions modernes</em>) et <strong>Musée National</strong>."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner moderne aux marchés couverts ou bistros tchèques revisités."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée Mucha</strong> (<em>Art nouveau, affiches emblématiques</em>).",
+              "Balade vers la Maison dansante (<em>Fred & Ginger</em>, architecture moderne de Gehry)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Concert de musique classique ou opéra (<em>Rudolfinum</em> ou <em>Théâtre National</em>)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Art, modernité & détente",
+        "image": "",
+        "alt": "Prague",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Direction <strong>Vyšehrad</strong> pour visiter la <strong>Forteresse médiévale</strong> avec vues panoramiques.",
+              "La <strong>Basilique Saint-Pierre-et-Paul</strong> et le cimetière des grands artistes tchèques."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les alentours."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>DOX – Centre d'art contemporain</strong> (<em>street art, design, expositions internationales</em>).",
+              "<strong>Musée du communisme</strong>.",
+              "Pause café dans un grand café historique (<em>Café Slavia</em> ou <em>Café Louvre</em> fréquenté par <strong>Kafka, Einstein</strong>…)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Croisière sur la <strong>Vltava</strong> avec dîner."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "titre": "Excursion (si tu restes plus longtemps)",
+        "image": "",
+        "alt": "Prague",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Kutná Hora</strong> (à 1h de Prague en train).",
+              "<strong>Église Sainte-Barbe</strong> (<em>gothique flamboyant</em>).",
+              "<strong>Ossuaire de Sedlec</strong> (<em>chapelle décorée d'ossements humains</em> → très impressionnante et unique)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les alentours."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Retour à Prague en fin de journée.",
+              "Dernière balade dans le centre ville."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dernier dîner festif avec musique folklorique ou dans une brasserie moderne."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "La <strong>Prague Card</strong> (ou \"Prague CoolPass\") peut être intéressante si tu veux enchaîner les musées/monuments.",
+      "Ville très piétonne → prévois de bonnes chaussures.",
+      "Les concerts classiques (à la cathédrale, au Rudolfinum) sont une expérience magique le soir."
+    ],
+    "budget": {
+      "titre": "Budget de 5 jours à Prague",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Pass transports"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  },
+  "turquie": {
+    "id": "turquie",
+    "nom": "Turquie",
+    "drapeau": "🇹🇷",
+    "ville": "Istanbul",
+    "titre": "Voyage à Istanbul",
+    "image_hero": "images/istanbul.jpg",
+    "alt_hero": "Istanbul",
+    "description_courte": "Istanbul, située à cheval entre l'Europe et l'Asie, est une métropole fascinante où se mêlent histoire, culture et modernité.",
+    "description_longue": "Ancienne capitale de trois empires, elle abrite des trésors comme Sainte-Sophie, la Mosquée Bleue et le palais de Topkapi. Animée et cosmopolite, Istanbul offre une atmosphère unique entre tradition ottomane, effervescence urbaine et vues spectaculaires sur le Bosphore.",
+    "flag_class": "flag-tr",
+    "budget_class": "budget-tr",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Istanbul ?",
+        "texte": "Le printemps et l'automne, en particulier les mois de mai, juin, septembre et octobre."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "3h30 pour Istanbul."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "+ 1h en été, + 2h en hiver."
+      }
+    ],
+    "nb_jours": 5,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Cœur historique (Sultanahmet)",
+        "image": "",
+        "alt": "Istanbul",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite de <strong>Sainte-Sophie</strong> (<em>Hagia Sophia</em>).",
+              "Visite de la <strong>Mosquée Bleue</strong> (<em>Sultanahmet Camii</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Repas dans les environs de Sultanahmet."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite de l'<strong>Hippodrome byzantin</strong>.",
+              "Visite de la <strong>Citerne Basilique</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée à <strong>Sultanahmet</strong> ou vue sur le Bosphore."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Palais & bazars",
+        "image": "",
+        "alt": "Istanbul",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite du <strong>Palais de Topkapi</strong> (<em>harem inclus</em>).",
+              "Visite du <strong>Grand Bazar</strong> (<em>shopping, épices, artisanat</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à <strong>Pandeli</strong> (<em>au Grand Bazar</em>) – institution pour plats ottomans."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite de la <strong>Mosquée de Süleymaniye</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée au café <strong>Pierre Loti</strong> pour admirer le coucher de soleil."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Croisière & côté asiatique",
+        "image": "",
+        "alt": "Istanbul",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Croisière sur le <strong>Bosphore</strong> (<em>2h, ou jusqu'à Anadolu Kavağı</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à <strong>Anadolu Kavağı</strong> du poisson frais."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Traversée vers <strong>Kadıköy ou Üsküdar</strong> (<em>quartiers asiatiques animés</em>)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner en terrasse avec vue sur la rive européenne."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Culture & modernité",
+        "image": "",
+        "alt": "Istanbul",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Visite du <strong>Palais de Dolmabahçe</strong> (<em>fastueux palais ottoman</em>).",
+              "Visite du <strong>Quartier de Galata</strong> : tour de Galata, Istiklal Caddesi (<em>grande rue piétonne</em>)."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner sur la <strong>Place Taksim</strong>."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Balade dans le quartier de Beyoğlu.",
+              "Shopping ou galeries d'art."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Nuit dans un <strong>meyhane</strong> (<em>taverne turque avec musique et mezze</em>)."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "titre": "Journée libre / hors sentiers",
+        "image": "",
+        "alt": "Istanbul",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Balade dans <strong>Balat & Fener</strong> (<em>quartiers colorés, maisons ottomanes</em>).",
+              "<strong>Musée archéologique d'Istanbul</strong> ou Istanbul Modern."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans les alentours."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite du <strong>Istanbul Modern</strong>.",
+              "Derniers achats au <strong>Bazar aux Épices</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Préparation pour le départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Prendre une <strong>Istanbulkart</strong> pour payer moins cher les transports publics (métro, tram, ferry).",
+      "Visiter Sainte-Sophie et la Mosquée Bleue tôt le matin pour éviter les foules.",
+      "Prévoir un budget shopping si tu veux explorer le Grand Bazar, mais négocie toujours."
+    ],
+    "budget": {
+      "titre": "Budget 5 jours à Istanbul",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "Istanbulkart"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  },
+  "suede": {
+    "id": "suede",
+    "nom": "Suède",
+    "drapeau": "🇸🇪",
+    "ville": "Stockholm",
+    "titre": "Voyage à Stockholm",
+    "image_hero": "images/stockholm.jpg",
+    "alt_hero": "Stockholm",
+    "description_courte": "Stockholm, capitale de la Suède, est une ville construite sur 14 îles reliées par des ponts, mêlant harmonieusement nature et architecture urbaine.",
+    "description_longue": "Elle se distingue par son riche patrimoine historique, ses musées renommés, et son ambiance moderne et écologique.",
+    "flag_class": "flag-se",
+    "budget_class": "budget-se",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Stockholm ?",
+        "texte": "De Juin à Août reste la meilleure période, au moment de la Saint-Jean (fin juin) ou de la Sainte-Lucie (mi-décembre)."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 2h et 3h (environ 2h30)."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 5,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Découverte du cœur historique",
+        "image": "images/Jour 1 Suède.png",
+        "alt": "Suède",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Balade dans <strong>Gamla Stan</strong> (la vieille ville) : ruelles pavées, façades colorées. (A)",
+              "<strong>Palais Royal</strong> (Kungliga Slottet) → relève de la garde si possible. (B)",
+              "<strong>Storkyrkan</strong> (cathédrale médiévale de Stockholm). (C)",
+              "Balade dans <strong>Stortorget</strong>, place de Gamla Stan, le centre historique de Stockholm. (D)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Dans un restaurant typique de Gamla Stan (ex : <em>Fem Små Hus</em> ou <em>Tradition</em> pour goûter les boulettes suédoises)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Eglise Allemande</strong>. (E)",
+              "<strong>Riddarholmen</strong> et son église gothique. (F)",
+              "<strong>Musée du prix Nobel</strong>.",
+              "Pause fika et kanelbullar à <strong>Kaffekoppen</strong> café historique (<em>Gamla Stan</em>).",
+              "Flâner le long de <strong>Skeppsbron</strong> avec vue sur le port.",
+              "Promenade en bateau pour découvrir la ville depuis l'eau (1h ou 2h)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "texte",
+            "contenu": "Dîner dans le quartier de Gamla Stan."
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Art, musées et culture",
+        "image": "images/Jour 2 Suède.png",
+        "alt": "Suède",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Direction <strong>Djurgården</strong>, l'île des musées et de la verdure (Tram 7 depuis Sergels Torg).",
+              "<strong>Musée Nordique</strong> (histoire du peuple suédois et de sa culture). (A)",
+              "<strong>Musée Vasa</strong> (impressionnant navire du XVIIe siècle). (B)",
+              "<strong>Musée Viking</strong>. (B)",
+              "<strong>Vrak Museum</strong> - Musée des Épaves.",
+              "<strong>ABBA The Museum</strong> (juste à côté). (C)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Café sur Djurgården (par ex. <em>Rosendals Trädgård</em>, au milieu d'un jardin). (D)"
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Skansen</strong>, le musée en plein air le plus ancien du monde (maisons traditionnelles, animaux nordiques). (E)",
+              "Balade dans le parc de <strong>Djurgården</strong> (location de vélo possible).",
+              "<strong>Musée historique de Stockholm</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "texte",
+            "contenu": "Dîner dans les environs."
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Design, modernité et vie locale",
+        "image": "images/Jour 3 Suède.png",
+        "alt": "Suède",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Balade dans <strong>Norrmalm</strong>, le cœur moderne de la ville.",
+              "<strong>Bibliothèque publique de Stockholm</strong> (architecture art nouveau). (A)",
+              "<strong>Eglise Engelbrektskyrkan</strong> (architecture de Gunnar Asplund). (B)",
+              "<strong>Bibliothèque Royale de Stockholm</strong>. (C)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner sur l'île Skeppsholmen."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée National de Stockholm</strong>. (D)",
+              "Visite du <strong>Moderna Museet</strong>, du musée d'architecture et de design (<em>ArkDes</em>) et du musée asiatique (<em>Östasiatiska museet</em>). (E) & (F)",
+              "La <strong>Kulturhuset</strong> et Sergels Torg : centre de la culture contemporaine (expos, concerts, spectacles). (G)",
+              "Vue depuis <strong>Fjällgatan</strong> ou <strong>Katarinahissen</strong>.",
+              "Pause fika à <em>Il Caffè ou Kaffebar</em>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "texte",
+            "contenu": "Dîner dans le quartier."
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Balade et détente",
+        "image": "images/Jour 4 Suède.png",
+        "alt": "Suède",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Départ pour l'<strong>île de Södermalm</strong>, gagner les hauteurs pour une vue sur la ville.",
+              "Visite du <strong>Musée Fotografiska</strong>. (A)",
+              "Le chemin mène ensuite à <strong>l'église Sofia kyrka</strong> et à son joli parc. (B)",
+              "Remonter la colline pour prendre un verre sur la terrasse du <strong>Mosebacketerrassen</strong>. (C)",
+              "Aller au <strong>Musée de la ville</strong>. (D)"
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Sandwich sain et branché chez Fern & Fika (gratuit avec Pass)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Continuer jusqu'à <strong>Skinnarviksberget</strong> pour rejoindre le parc. (E)",
+              "Vue depuis <strong>Fjällgatan</strong> ou <strong>Katarinahissen</strong>.",
+              "Continuer jusqu'à l'<strong>Église d'Högalid</strong>. (F)",
+              "Pause fika à <em>Il Caffè ou Kaffebar</em>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "texte",
+            "contenu": "Dîner dans le quartier de Södermalm."
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "titre": "Nature et Archipel",
+        "image": "images/Jour 5 Suède.png",
+        "alt": "Suède",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Excursion en bateau dans <strong>l'archipel de Stockholm</strong> depuis <strong>Strömkajen</strong> (plus de 30 000 îles !) (1h de traversée). (A)",
+              "Visite du château de <strong>Drottningholm</strong>, site inscrit au patrimoine mondial de l'UNESCO. (B)",
+              "Visite du <strong>théâtre de Drottningholm</strong>."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Poisson frais dans un petit port de l'archipel ou retour à Stockholm (ex : <em>Vaxholms Hembygdsgårds Café</em>). (C)"
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Grand tour de l'archipel jusqu'à <strong>Artipelag</strong>.",
+              "Visite de la galerie d'art <strong>Artipelag</strong>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "texte",
+            "contenu": "Préparation pour le départ."
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Prendre la <strong>SL-Card</strong> (transport public) → valable pour métro, bus, tram et ferries.",
+      "Si tu aimes marcher, Stockholm est parfaite à pied + bateau.",
+      "Pour une ambiance locale : pause <em>Fika</em> (café + pâtisserie, comme la kanelbulle) chaque après-midi."
+    ],
+    "budget": {
+      "titre": "Budget 5 jours à Stockholm",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 150€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "15€ – 25€ / jour",
+          "details": "Restaurants locaux & street food"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "15€ (4 jours)",
+          "details": "SL-Card"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "50€ – 80€",
+          "details": "Musées + visites"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Europe 🇪🇺 | 365TRAVEL</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js');
+      }
+    </script>
+
+</head>
+<body>
+
+  <!-- ==============================
+     HEADER
+     ============================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logo.png" alt="Logo 365 Travel">
+      </a>
+
+      <!-- NAVIGATION -->
+      <nav class="primary" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-item">
+            <button class="submenu-toggle" aria-expanded="false">Destinations</button>
+            <ul class="submenu">
+              <li><a href="europe.html" aria-current="page">Europe</a></li>
+              <li><a href="asie.html">Asie</a></li>
+              <li><a href="amerique.html">Amérique</a></li>
+            </ul>
+          </li>
+          <li><a href="gallerie.html">About</a></li>
+          <li><a href="a-propos.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button id="themeToggle" class="btn theme-toggle" aria-pressed="false" aria-label="Basculer thème">
+          <span id="themeIcon">🌞</span>
+        </button>
+        <button class="btn btn--primary" type="button">Quentin L</button>
+        <button id="hamburger" class="btn btn--ghost hamburger" type="button" aria-expanded="false" aria-controls="drawer">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+  <!-- Bloc intro Europe -->
+  <section class="intro-europe">
+    <div class="intro-text">
+      <h1>🌍 Destinations en Europe</h1>
+      <p>
+        L’Europe est un continent d’une richesse incroyable, où chaque pays dévoile
+        un patrimoine culturel et historique unique. Des grandes capitales comme
+        <strong>Paris</strong>, <strong>Rome</strong> ou <strong>Berlin</strong> aux petits
+        villages pittoresques des Alpes ou de la Méditerranée, chaque voyage en
+        Europe est une immersion dans des paysages variés et des traditions
+        fascinantes.  
+      </p>
+      <p>
+        Terre de diversité, l’Europe séduit autant par ses monuments emblématiques
+        que par sa gastronomie raffinée et ses fêtes locales authentiques. Entre
+        plages ensoleillées, forêts majestueuses et métropoles dynamiques, chacun
+        peut y trouver son bonheur.  
+      </p>
+      <p>
+        Que ce soit pour un <em>week-end culturel</em>, un <em>road trip</em> à travers
+        plusieurs pays ou des vacances détente, l’Europe est une destination qui
+        offre des expériences infinies. Préparez vos bagages et partez à la
+        découverte de ce continent fascinant !
+      </p>
+    </div>
+  </section>
+  
+  <!-- Exemple de section -->
+  <section class="art-grid">
+
+    <a href="pays.html?id=allemagne" class="card">
+      <div class="card__media">
+        <img src="images/berlin.jpg" alt="Berlin" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Allemagne 🇩🇪</div>
+        <div class="card__meta">Berlin • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=autriche" class="card">
+      <div class="card__media">
+        <img src="images/vienne.jpg" alt="Vienne" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Autriche 🇦🇹</div>
+        <div class="card__meta">Vienne • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=bulgarie" class="card">
+      <div class="card__media">
+        <img src="images/sofia-1.jpg" alt="Sofia" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Bulgarie 🇧🇬</div>
+        <div class="card__meta">Sofia • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=danemark" class="card">
+      <div class="card__media">
+        <img src="images/copenhague.jpg" alt="Copenhague" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Danemark 🇩🇰</div>
+        <div class="card__meta">Copenhague • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=estonie" class="card">
+      <div class="card__media">
+        <img src="images/tallinn.jpg" alt="Tallinn" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Estonie 🇪🇪</div>
+        <div class="card__meta">Tallinn • Tour</div>
+      </div>
+    </a>
+
+    <a href="paris.html" class="card">
+      <div class="card__media">
+        <img src="images/paris.jpg" alt="Paris" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">France 🇫🇷</div>
+        <div class="card__meta">Paris • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=grece" class="card">
+      <div class="card__media">
+        <img src="images/athenes.jpg" alt="Athènes" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Grèce 🇬🇷</div>
+        <div class="card__meta">Athènes • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=hongrie" class="card">
+      <div class="card__media">
+        <img src="images/Hongrie_budapest.jpg" alt="Budapest" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Hongrie 🇭🇺</div>
+        <div class="card__meta">Budapest • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=netherlands" class="card">
+      <div class="card__media">
+        <img src="images/amsterdam.jpg" alt="Vienne" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Pays-Bas 🇳🇱</div>
+        <div class="card__meta">Amsterdam • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=slovenie" class="card">
+      <div class="card__media">
+        <img src="images/slovenie.jpg" alt="Ljubljana" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Slovénie 🇸🇮</div>
+        <div class="card__meta">Ljubljana • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=suede" class="card">
+      <div class="card__media">
+        <img src="images/stockholm.jpg" alt="Stockholm" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Suède 🇸🇪</div>
+        <div class="card__meta">Stockholm • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=tchequie" class="card">
+      <div class="card__media">
+        <img src="images/pont-charles-prague.jpg" alt="Prague" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Tchéquie 🇨🇿</div>
+        <div class="card__meta">Prague • Tour</div>
+      </div>
+    </a>
+
+    <a href="pays.html?id=turquie" class="card">
+      <div class="card__media">
+        <img src="images/istanbul.jpg" alt="Istanbul" />
+      </div>
+      <div class="card__body">
+        <div class="card__title">Turquie 🇹🇷</div>
+        <div class="card__meta">Istanbul • Tour</div>
+      </div>
+    </a>
+
+  </section>
+</main>
+
+<!-- ==============================
+     FOOTER
+     ============================== -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Colonne gauche : logo + texte -->
+    <a href="index.html" aria-label="Retour à l’accueil">
+    <div class="footer-col footer-left">
+      <img src="images/logo.png" alt="Logo 365 Travel" class="footer-logo">
+      <p>Explorez le monde à votre rythme 🌍</p>
+    </div>
+
+    <!-- Colonne centrale : réseaux sociaux -->
+    <div class="footer-col footer-center">
+      <div class="footer-socials" aria-label="Réseaux sociaux">
+        <a href="#" aria-label="Instagram">
+          <img src="images/icon-instagram.svg" alt="Instagram">
+        </a>
+        <a href="#" aria-label="YouTube">
+          <img src="images/icon-youtube.svg" alt="YouTube">
+        </a>
+        <a href="#" aria-label="X (Twitter)">
+          <img src="images/icon-x.svg" alt="X (Twitter)">
+        </a>
+      </div>
+    </div>
+
+    <!-- Colonne droite : liens légaux -->
+    <div class="footer-col footer-right">
+      <nav aria-label="Liens légaux">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 365 Travel — Tous droits réservés.</p>
+  </div>
+</footer>
+</body>
+</html>

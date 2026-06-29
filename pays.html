@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title id="page-title">Destination | 365TRAVEL</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a1a2e">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
+</head>
+<body>
+
+  <!-- ==============================
+     HEADER
+     ============================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logo.png" alt="Logo 365 Travel">
+      </a>
+      <nav class="primary" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-item">
+            <button class="submenu-toggle" aria-expanded="false">Destinations</button>
+            <ul class="submenu">
+              <li><a href="europe.html">Europe</a></li>
+              <li><a href="asie.html">Asie</a></li>
+              <li><a href="amerique.html">Amérique</a></li>
+            </ul>
+          </li>
+          <li><a href="gallerie.html">About</a></li>
+          <li><a href="a-propos.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <button id="themeToggle" class="btn theme-toggle" aria-pressed="false" aria-label="Basculer thème">
+          <span id="themeIcon">🌞</span>
+        </button>
+        <button class="btn btn--primary" type="button">Quentin L</button>
+        <button id="hamburger" class="btn btn--ghost hamburger" type="button" aria-expanded="false" aria-controls="drawer">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Drawer mobile -->
+  <div id="drawer" class="drawer container" role="dialog" aria-modal="true" aria-label="Menu"></div>
+
+  <!-- ==============================
+     CONTENU DYNAMIQUE
+     ============================== -->
+  <main id="main-content">
+    <!-- Rempli par JavaScript -->
+    <div id="loading" class="container" style="padding:4rem 1rem; text-align:center;">
+      <p>Chargement de la destination…</p>
+    </div>
+  </main>
+
+  <!-- ==============================
+     FOOTER
+     ============================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <a href="index.html" aria-label="Retour à l'accueil">
+        <div class="footer-col footer-left">
+          <img src="images/logo.png" alt="Logo 365 Travel" class="footer-logo">
+          <p>Explorez le monde à votre rythme 🌍</p>
+        </div>
+      </a>
+      <div class="footer-col footer-center">
+        <div class="footer-socials" aria-label="Réseaux sociaux">
+          <a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+          <a href="#" aria-label="YouTube"><img src="images/icon-youtube.svg" alt="YouTube"></a>
+          <a href="#" aria-label="X (Twitter)"><img src="images/icon-x.svg" alt="X (Twitter)"></a>
+        </div>
+      </div>
+      <div class="footer-col footer-right">
+        <nav aria-label="Liens légaux">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 365 Travel — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+  // ==============================
+  // CHARGEMENT DYNAMIQUE DU PAYS
+  // ==============================
+  (async function loadPays() {
+    // Lire l'ID du pays depuis l'URL : pays.html?id=hongrie
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+
+    if (!id) {
+      document.getElementById('loading').innerHTML =
+        '<p>❌ Aucune destination spécifiée. <a href="index.html">Retour à l\'accueil</a></p>';
+      return;
+    }
+
+    let data;
+    try {
+      const res = await fetch('pays.json');
+      const all = await res.json();
+      data = all[id];
+    } catch(e) {
+      document.getElementById('loading').innerHTML =
+        '<p>❌ Impossible de charger les données. <a href="index.html">Retour à l\'accueil</a></p>';
+      return;
+    }
+
+    if (!data) {
+      document.getElementById('loading').innerHTML =
+        `<p>❌ Destination "${id}" introuvable. <a href="index.html">Retour à l'accueil</a></p>`;
+      return;
+    }
+
+    // Mettre à jour le titre de l'onglet
+    document.getElementById('page-title').textContent =
+      `${data.nom} ${data.drapeau} | 365TRAVEL`;
+
+    // ---- Construire le HTML ----
+    const main = document.getElementById('main-content');
+    main.innerHTML = buildPage(data);
+  })();
+
+  function buildPage(p) {
+    return `
+      <!-- HERO -->
+      <section class="hero hero-page container">
+        <div class="badge">${p.drapeau} ${p.nom}</div>
+        <div class="hero-header">
+          <h1><strong>${p.titre}</strong></h1>
+          <div class="hero-image">
+            <img src="${p.image_hero}" alt="${p.alt_hero}">
+          </div>
+        </div>
+        <div class="hero-description">
+          <p><strong>${p.description_courte}</strong></p>
+          <p><em>${p.description_longue}</em></p>
+        </div>
+      </section>
+
+      <!-- INFORMATIONS -->
+      <section class="info-section info-flag ${p.flag_class} container">
+        <h3 class="info-title">ℹ️ Informations supplémentaires</h3>
+        <div class="info-grid">
+          ${p.infos.map(info => `
+            <div class="info-item">
+              <h4>${info.emoji} ${info.titre}</h4>
+              <p>${info.texte}</p>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+
+      <!-- ITINÉRAIRE -->
+      <h2 class="itineraire-title ${p.flag_class}">
+        📍 Itinéraire de ${p.nb_jours} jours à ${p.ville}
+      </h2>
+      ${p.jours.map(jour => buildJour(jour)).join('')}
+
+      <!-- CONSEILS -->
+      <section class="info-section container">
+        <h3 class="info-title">✨ Conseils pratiques</h3>
+        <div class="conseils-grid">
+          ${p.conseils.map(c => `
+            <div class="conseil-item"><p>- ${c}</p></div>
+          `).join('')}
+        </div>
+      </section>
+
+      <!-- BUDGET -->
+      <section class="info-section container budget-section ${p.budget_class}">
+        <h3 class="info-title">📒 ${p.budget.titre}</h3>
+        <div class="budget-table-wrapper">
+          <table class="budget-table">
+            <thead>
+              <tr><th>Catégorie</th><th>Prix moyen</th><th>Détails</th></tr>
+            </thead>
+            <tbody>
+              ${p.budget.lignes.map(l => `
+                <tr>
+                  <td>${l.categorie}</td>
+                  <td>${l.prix}</td>
+                  <td>${l.details}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    `;
+  }
+
+  function buildJour(jour) {
+    return `
+      <section class="itineraire">
+        <article class="jour">
+          <img src="${jour.image}" alt="${jour.alt}">
+          <h3>Jour ${jour.numero} – ${jour.titre}</h3>
+          ${jour.sections.map(s => buildSection(s)).join('')}
+        </article>
+      </section>
+    `;
+  }
+
+  function buildSection(s) {
+    const label = `<h4>${labelEmoji(s.label)} ${s.label} :</h4>`;
+    if (s.type === 'liste') {
+      return label + `<ul>${s.contenu.map(c => `<li>${c}</li>`).join('')}</ul>`;
+    } else {
+      return label + `<p>${s.contenu}</p>`;
+    }
+  }
+
+  function labelEmoji(label) {
+    const map = { 'Matin': '🌅', 'Déjeuner': '🍽️', 'Après-midi': '☀️', 'Soir': '🌙' };
+    return map[label] || '';
+  }
+  </script>
+</body>
+</html>
