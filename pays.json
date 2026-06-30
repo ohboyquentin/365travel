@@ -259,7 +259,7 @@
       {
         "numero": 1,
         "titre": "Cœur historique de Sofia",
-        "image": "images/Jour 1 Sofia.png",
+        "image": "images/Jour_1_Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -298,7 +298,7 @@
       {
         "numero": 2,
         "titre": "Musées & mémoire bulgare",
-        "image": "images/Jour 2 Sofia.png",
+        "image": "images/Jour_2_Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -336,7 +336,7 @@
       {
         "numero": 3,
         "titre": "Spiritualité & nature",
-        "image": "images/Jour 3 Sofia.png",
+        "image": "images/Jour_3_Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -374,7 +374,7 @@
       {
         "numero": 4,
         "titre": "Quartiers alternatifs & détente",
-        "image": "images/Jour 4 Sofia.png",
+        "image": "images/Jour_4_Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -486,7 +486,7 @@
       {
         "numero": 1,
         "titre": "Copenhague historique",
-        "image": "images/Jour 1 Danemark.png",
+        "image": "images/Jour_1_Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -526,7 +526,7 @@
       {
         "numero": 2,
         "titre": "Culture & design",
-        "image": "images/Jour 2 Danemark.png",
+        "image": "images/Jour_2_Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -564,7 +564,7 @@
       {
         "numero": 3,
         "titre": "Excursion à Helsingør & Hillerød",
-        "image": "images/Jour 3 Danemark.png",
+        "image": "images/Jour_3_Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -602,7 +602,7 @@
       {
         "numero": 4,
         "titre": "Copenhague alternative & hygge",
-        "image": "images/Jour 4 Danemark.png",
+        "image": "images/Jour_4_Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -641,7 +641,7 @@
       {
         "numero": 5,
         "titre": "Excursion à Roskilde & détente",
-        "image": "images/Jour 5 Danemark.png",
+        "image": "images/Jour_5_Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -1223,7 +1223,7 @@
       {
         "numero": 1,
         "titre": "Tour du centre historique",
-        "image": "images/Jour 1 Budapest.png",
+        "image": "images/Jour_1_Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -1261,7 +1261,7 @@
       {
         "numero": 2,
         "titre": "Art, culture et vie locale",
-        "image": "images/Jour 2 Budapest.png",
+        "image": "images/Jour_2_Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -1297,7 +1297,7 @@
       {
         "numero": 3,
         "titre": "Histoire et détente",
-        "image": "images/Jour 3 Budapest.png",
+        "image": "images/Jour_3_Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -1335,7 +1335,7 @@
       {
         "numero": 4,
         "titre": "Escapade et Gastronomie",
-        "image": "images/Jour 4 Budapest.png",
+        "image": "images/Jour_4_Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -2385,7 +2385,7 @@
       {
         "numero": 1,
         "titre": "Découverte du cœur historique",
-        "image": "images/Jour 1 Suède.png",
+        "image": "images/Jour_1_Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2425,7 +2425,7 @@
       {
         "numero": 2,
         "titre": "Art, musées et culture",
-        "image": "images/Jour 2 Suède.png",
+        "image": "images/Jour_2_Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2464,7 +2464,7 @@
       {
         "numero": 3,
         "titre": "Design, modernité et vie locale",
-        "image": "images/Jour 3 Suède.png",
+        "image": "images/Jour_3_Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2503,7 +2503,7 @@
       {
         "numero": 4,
         "titre": "Balade et détente",
-        "image": "images/Jour 4 Suède.png",
+        "image": "images/Jour_4_Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2542,7 +2542,7 @@
       {
         "numero": 5,
         "titre": "Nature et Archipel",
-        "image": "images/Jour 5 Suède.png",
+        "image": "images/Jour_5_Suède.png",
         "alt": "Suède",
         "sections": [
           {
