@@ -93,21 +93,41 @@
     const btn = document.getElementById('hamburger');
     const drawer = document.getElementById('drawer');
     const primaryNav = document.querySelector('nav.primary');
+    const header = document.querySelector('header.site-header');
 
     if (!btn || !drawer || !primaryNav) return;
 
     drawer.innerHTML = "";
     drawer.appendChild(primaryNav.cloneNode(true));
 
+    const positionDrawer = () => {
+      if (header) {
+        drawer.style.top = header.getBoundingClientRect().bottom + 'px';
+      }
+    };
+
     const toggle = () => {
       const open = !drawer.classList.contains('open');
+      if (open) positionDrawer();
       drawer.classList.toggle('open', open);
       btn.setAttribute('aria-expanded', String(open));
     };
 
-    btn.addEventListener('click', toggle);
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggle();
+    });
+
     drawer.addEventListener('click', (e) => {
       if (e.target.tagName === 'A') toggle();
+    });
+
+    // Fermer si on clique en dehors du drawer et du bouton hamburger
+    document.addEventListener('click', (e) => {
+      if (!drawer.classList.contains('open')) return;
+      if (drawer.contains(e.target) || btn.contains(e.target)) return;
+      drawer.classList.remove('open');
+      btn.setAttribute('aria-expanded', "false");
     });
 
     document.addEventListener('keydown', (e) => {
@@ -115,6 +135,7 @@
     });
 
     window.addEventListener('resize', () => {
+      if (drawer.classList.contains('open')) positionDrawer();
       if (window.innerWidth > 880 && drawer.classList.contains('open')) {
         drawer.classList.remove('open');
         btn.setAttribute('aria-expanded', "false");

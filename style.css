@@ -231,23 +231,33 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
    ------------------------------ */
 .drawer {
   position: fixed;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: min(80vw, 320px);
+  /* "top" est recalculé en JS pour coller juste sous le header */
+  top: 4.5rem;
+  right: 1rem;
+  left: auto;
+  width: min(80vw, 280px);
+  height: auto;              /* s'arrête après le dernier élément */
+  max-height: min(70vh, 420px);
   background: var(--surface);
-  border-left: 1px solid var(--border);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
   z-index: 1000;
-  padding: 5rem 1.5rem 2rem;
-  transform: translateX(100%);
-  transition: transform 0.3s ease;
-  overflow-y: auto;
+  padding: .75rem 1rem;
+  transform: translateY(-8px) scale(0.98);
+  transform-origin: top right;
+  opacity: 0;
   visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  overflow-y: auto;
 }
 
 .drawer.open {
-  transform: translateX(0);
+  opacity: 1;
   visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
 }
 
 /* Le nav cloné dans le drawer doit redevenir visible et vertical */
@@ -258,7 +268,7 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
 .drawer nav.primary ul {
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
+  gap: .6rem;
 }
 
 .drawer .submenu {
@@ -269,24 +279,6 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
   border: none;
   padding-left: 1rem;
   min-width: unset;
-}
-
-/* Overlay derrière le drawer pour fermer au clic en dehors */
-.drawer::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  right: min(80vw, 320px);
-  background: rgba(0,0,0,0.4);
-  z-index: -1;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-.drawer.open::before {
-  opacity: 1;
-  pointer-events: auto;
 }
 /* ------------------------------
    HERO
