@@ -97,49 +97,72 @@
 
     if (!btn || !drawer || !primaryNav) return;
 
+    // Cloner le menu
     drawer.innerHTML = "";
     drawer.appendChild(primaryNav.cloneNode(true));
 
-    const positionDrawer = () => {
-      if (header) {
-        drawer.style.top = header.getBoundingClientRect().bottom + 'px';
-      }
+    // Forcer l'affichage du nav cloné (nav.primary est display:none sur mobile)
+    drawer.querySelectorAll('nav, ul, li').forEach(el => {
+      el.style.display = 'block';
+    });
+
+    // Styler les liens
+    drawer.querySelectorAll('a, button').forEach(el => {
+      el.style.cssText = 'display:block; color:var(--text,#fff); padding:10px 0; font-size:1rem; text-decoration:none; background:none; border:none; cursor:pointer; width:100%; text-align:left;';
+    });
+
+    // Styles du drawer via JS — indépendant du CSS
+    const headerH = header ? header.offsetHeight : 60;
+    Object.assign(drawer.style, {
+      position: 'fixed',
+      top: headerH + 'px',
+      left: '0',
+      right: '0',
+      zIndex: '9999',
+      background: 'var(--bg, #0d0d0f)',
+      borderBottom: '1px solid var(--border, #21232a)',
+      padding: '1rem 1.5rem',
+      boxShadow: '0 8px 24px rgba(0,0,0,0.6)',
+      display: 'none'
+    });
+
+    let isOpen = false;
+
+    const open = () => {
+      // Recalculer la position au cas où
+      drawer.style.top = (header ? header.offsetHeight : 60) + 'px';
+      drawer.style.display = 'block';
+      isOpen = true;
+      btn.setAttribute('aria-expanded', 'true');
     };
 
-    const toggle = () => {
-      const open = !drawer.classList.contains('open');
-      if (open) positionDrawer();
-      drawer.classList.toggle('open', open);
-      btn.setAttribute('aria-expanded', String(open));
+    const close = () => {
+      drawer.style.display = 'none';
+      isOpen = false;
+      btn.setAttribute('aria-expanded', 'false');
     };
 
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
-      toggle();
+      isOpen ? close() : open();
     });
 
     drawer.addEventListener('click', (e) => {
-      if (e.target.tagName === 'A') toggle();
+      if (e.target.tagName === 'A') close();
     });
 
-    // Fermer si on clique en dehors du drawer et du bouton hamburger
     document.addEventListener('click', (e) => {
-      if (!drawer.classList.contains('open')) return;
+      if (!isOpen) return;
       if (drawer.contains(e.target) || btn.contains(e.target)) return;
-      drawer.classList.remove('open');
-      btn.setAttribute('aria-expanded', "false");
+      close();
     });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && drawer.classList.contains('open')) toggle();
+      if (e.key === 'Escape' && isOpen) close();
     });
 
     window.addEventListener('resize', () => {
-      if (drawer.classList.contains('open')) positionDrawer();
-      if (window.innerWidth > 880 && drawer.classList.contains('open')) {
-        drawer.classList.remove('open');
-        btn.setAttribute('aria-expanded', "false");
-      }
+      if (window.innerWidth > 880) close();
     });
   })();
   }); // DOMContentLoaded
