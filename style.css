@@ -221,9 +221,42 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
 
 
 .hamburger { display: none; }
+
 @media (max-width: 880px) {
   nav.primary { display: none; }
-  .hamburger { display: inline-flex; align-items: center; gap:.5rem; }
+
+  /* Header mobile : logo gauche, actions droite */
+  .nav {
+    grid-template-columns: 1fr auto;
+    padding-block: 0.6rem;
+  }
+
+  /* Logo plus visible */
+  .brand__logo {
+    inline-size: 120px;
+    block-size: 48px;
+  }
+
+  /* Cacher le bouton "Quentin L" sur mobile */
+  .btn--primary {
+    display: none;
+  }
+
+  /* Actions : toggle + hamburger collés à droite */
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    justify-self: end;
+  }
+
+  /* Hamburger visible */
+  .hamburger {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 0.4rem 0.6rem;
+  }
 }
 /* ------------------------------
    HERO
