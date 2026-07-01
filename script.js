@@ -84,90 +84,95 @@
     console.info('[themeToggle] initialisé — mode stocké:', stored, 'theme appliqué:', root.getAttribute('data-theme'));
 })();
 
-
-  // =========================
-  // MOBILE NAV DRAWER
-  // =========================
-  document.addEventListener('DOMContentLoaded', () => {
-  (function mobileNav(){
-    const btn = document.getElementById('hamburger');
-    const drawer = document.getElementById('drawer');
+// =========================
+// MOBILE NAV DRAWER
+// =========================
+(function() {
+  function initDrawer() {
+    const hamburger = document.getElementById('hamburger');
     const primaryNav = document.querySelector('nav.primary');
+    if (!hamburger || !primaryNav) return;
 
-    if (!btn || !drawer || !primaryNav) return;
+    // Créer le drawer from scratch
+    let drawer = document.getElementById('drawer');
+    if (!drawer) {
+      drawer = document.createElement('div');
+      drawer.id = 'drawer';
+      document.body.insertBefore(drawer, document.body.firstChild.nextSibling);
+    }
 
-    // Cloner le menu dans le drawer
-    drawer.innerHTML = "";
-    drawer.appendChild(primaryNav.cloneNode(true));
+    // Remplir avec le menu
+    drawer.innerHTML = primaryNav.outerHTML;
 
-    // Styles de base du drawer via JS (indépendant du CSS/cache)
-    const headerH = document.querySelector('header.site-header')
-      ? document.querySelector('header.site-header').getBoundingClientRect().height
-      : 60;
+    // Styler le drawer directement
+    drawer.style.cssText = `
+      display: none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+      background: #0d0d0f;
+      padding: 1.5rem;
+      border-bottom: 2px solid #333;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.8);
+    `;
 
-    Object.assign(drawer.style, {
-      position: 'fixed',
-      top: Math.round(headerH) + 'px',
-      left: '0',
-      right: '0',
-      zIndex: '9999',
-      background: 'var(--bg, #0d0d0f)',
-      borderBottom: '1px solid var(--border, #21232a)',
-      padding: '1rem',
-      display: 'none',
-      boxShadow: '0 4px 20px rgba(0,0,0,0.5)'
+    // Positionner sous le header
+    const header = document.querySelector('header.site-header');
+    if (header) {
+      drawer.style.top = header.offsetHeight + 'px';
+    } else {
+      drawer.style.top = '60px';
+    }
+
+    // Styler les liens
+    drawer.querySelectorAll('a, button').forEach(el => {
+      el.style.cssText = 'display:block; color:#fff; padding:12px 0; font-size:1.1rem; text-decoration:none; border:none; background:none; cursor:pointer; width:100%;';
+    });
+    drawer.querySelectorAll('ul').forEach(ul => {
+      ul.style.cssText = 'list-style:none; margin:0; padding:0;';
+    });
+    drawer.querySelectorAll('.submenu').forEach(sub => {
+      sub.style.cssText = 'display:block; padding-left:1rem;';
     });
 
-    // Styles des liens dans le drawer
-    const styleLinks = () => {
-      drawer.querySelectorAll('a, button').forEach(el => {
-        el.style.color = 'var(--text, #f3f4f5)';
-        el.style.display = 'block';
-        el.style.padding = '0.8rem 0';
-        el.style.textDecoration = 'none';
-        el.style.fontSize = '1rem';
-      });
-      drawer.querySelectorAll('ul').forEach(ul => {
-        ul.style.listStyle = 'none';
-        ul.style.margin = '0';
-        ul.style.padding = '0';
-      });
-      // Sous-menu Destinations toujours visible dans le drawer
-      drawer.querySelectorAll('.submenu').forEach(sub => {
-        sub.style.display = 'block';
-        sub.style.paddingLeft = '1rem';
-      });
-    };
+    // Toggle
+    let isOpen = false;
 
-    const open = () => {
-      drawer.style.display = 'block';
-      styleLinks();
-      btn.setAttribute('aria-expanded', 'true');
-      drawer.classList.add('open');
-    };
+    hamburger.addEventListener('click', () => {
+      isOpen = !isOpen;
+      drawer.style.display = isOpen ? 'block' : 'none';
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
 
-    const close = () => {
-      drawer.style.display = 'none';
-      btn.setAttribute('aria-expanded', 'false');
-      drawer.classList.remove('open');
-    };
-
-    const toggle = () => {
-      drawer.style.display === 'block' ? close() : open();
-    };
-
-    btn.addEventListener('click', toggle);
     drawer.addEventListener('click', (e) => {
-      if (e.target.tagName === 'A') close();
+      if (e.target.tagName === 'A') {
+        isOpen = false;
+        drawer.style.display = 'none';
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
     });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') close();
+      if (e.key === 'Escape' && isOpen) {
+        isOpen = false;
+        drawer.style.display = 'none';
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
     });
 
     window.addEventListener('resize', () => {
-      if (window.innerWidth > 880) close();
+      if (window.innerWidth > 880 && isOpen) {
+        isOpen = false;
+        drawer.style.display = 'none';
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
     });
-  })();
-  }); // DOMContentLoaded
+  }
 
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initDrawer);
+  } else {
+    initDrawer();
+  }
+})();
