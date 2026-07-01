@@ -114,19 +114,21 @@
     // Styles du drawer via JS — indépendant du CSS
     const headerH = header ? header.offsetHeight : 60;
     Object.assign(drawer.style, {
-      position: 'fixed',
-      top: headerH + 'px',
-      left: '0',
-      right: '0',
-      width: 'auto',
-      minWidth: '200px',
-      zIndex: '9999',
-      background: 'var(--bg, #0d0d0f)',
-      borderBottom: '1px solid var(--border, #21232a)',
-      padding: '1rem 1.5rem',
-      boxShadow: '0 8px 24px rgba(0,0,0,0.6)',
-      display: 'none'
-    });
+  position: 'fixed',
+  top: headerH + 'px',
+  left: 'auto',
+  right: '0',
+  width: 'auto',
+  minWidth: '220px',
+  zIndex: '9999',
+  background: 'var(--bg, #0d0d0f)',
+  borderBottom: '1px solid var(--border, #21232a)',
+  borderLeft: '1px solid var(--border, #21232a)',
+  borderRadius: '0 0 0 12px',
+  padding: '1rem 1.5rem',
+  boxShadow: '-4px 8px 24px rgba(0,0,0,0.6)',
+  display: 'none'
+});
 
     let isOpen = false;
 
