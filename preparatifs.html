@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Préparatifs | 365TRAVEL</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a1a2e">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logo.png" alt="Logo 365 Travel">
+      </a>
+      <nav class="primary" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-item">
+            <button class="submenu-toggle" aria-expanded="false">Destinations</button>
+            <ul class="submenu">
+              <li><a href="europe.html">Europe</a></li>
+              <li><a href="asie.html">Asie</a></li>
+              <li><a href="amerique.html">Amérique</a></li>
+            </ul>
+          </li>
+          <li><a href="preparatifs.html" aria-current="page">Informations</a></li>
+          <li><a href="gallerie.html">About</a></li>
+          <li><a href="a-propos.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <button id="themeToggle" class="btn theme-toggle" aria-pressed="false" aria-label="Basculer thème">
+          <span id="themeIcon">🌞</span>
+        </button>
+        <button class="btn btn--primary" type="button">Quentin L</button>
+        <button id="hamburger" class="btn btn--ghost hamburger" type="button" aria-expanded="false" aria-controls="drawer">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Menu"></div>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="prep-hero">
+      <div class="badge">✈️ Avant de partir</div>
+      <h1>Guide de <span>Préparatifs</span></h1>
+      <p>Tout ce qu'il faut savoir avant, pendant et après votre voyage.</p>
+    </section>
+
+    <!-- NAVIGATION INTERNE -->
+    <nav class="prep-nav">
+      <a href="#checklist">✅ Checklist</a>
+      <a href="#bagages">🧳 Bagages</a>
+      <a href="#paiement">💳 Paiement</a>
+      <a href="#sim">📱 SIM & Internet</a>
+      <a href="#sante">🏥 Santé</a>
+      <a href="#urgences">🆘 Urgences</a>
+    </nav>
+
+    <!-- ==============================
+         CHECKLIST AVANT DÉPART
+         ============================== -->
+    <section class="prep-section" id="checklist">
+      <h2 class="prep-title">✅ Checklist avant le départ</h2>
+
+      <div class="prep-grid">
+        <div class="prep-card">
+          <h3>📅 2 à 3 mois avant</h3>
+          <ul class="prep-list">
+            <li>Vérifier la validité du passeport/carte d'identité (6 mois après retour)</li>
+            <li>Réserver les vols et l'hébergement</li>
+            <li>Vérifier si un visa est nécessaire selon la destination</li>
+            <li>Souscrire une assurance voyage</li>
+            <li>Vérifier les vaccins recommandés</li>
+            <li>Informer sa banque du voyage à l'étranger</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>📅 2 à 3 semaines avant</h3>
+          <ul class="prep-list">
+            <li>Réserver les excursions et activités populaires</li>
+            <li>Télécharger les cartes hors-ligne (Google Maps, Maps.me)</li>
+            <li>Préparer les copies des documents importants</li>
+            <li>Commander la devise locale si nécessaire</li>
+            <li>Vérifier les restrictions bagages de la compagnie aérienne</li>
+            <li>Faire une liste de ce qu'il faut acheter</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>📅 La veille du départ</h3>
+          <ul class="prep-list">
+            <li>Faire les valises en suivant la liste</li>
+            <li>Charger tous les appareils électroniques</li>
+            <li>Télécharger films/séries/musique pour le vol</li>
+            <li>Préparer les documents de voyage (billets, réservations)</li>
+            <li>Vérifier l'heure et le terminal du vol</li>
+            <li>Mettre un réveil (avec marge !)</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>📅 Le jour du départ</h3>
+          <ul class="prep-list">
+            <li>Passeport / Carte d'identité</li>
+            <li>Billets d'avion (print ou téléphone)</li>
+            <li>Réservations hébergement</li>
+            <li>Carte bancaire + un peu de cash</li>
+            <li>Chargeurs et adaptateurs</li>
+            <li>Médicaments essentiels en bagage cabine</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         BAGAGES
+         ============================== -->
+    <section class="prep-section" id="bagages">
+      <h2 class="prep-title">🧳 Bagages & affaires essentielles</h2>
+
+      <div class="prep-grid">
+        <div class="prep-card">
+          <h3>👔 Vêtements</h3>
+          <ul class="prep-list">
+            <li>Privilégier des vêtements légers et polyvalents</li>
+            <li>Prévoir une tenue pour les visites religieuses (épaules/genoux couverts)</li>
+            <li>1 veste légère même en été (avion, restos climatisés)</li>
+            <li>Chaussures de marche confortables et déjà portées</li>
+            <li>Maillot de bain même si pas prévu (on ne sait jamais)</li>
+            <li>Règle des 3 : 3 hauts, 3 bas, 3 sous-vêtements par semaine</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>💊 Pharmacie de voyage</h3>
+          <ul class="prep-list">
+            <li>Antidouleur (paracétamol, ibuprofène)</li>
+            <li>Anti-diarrhéique (Imodium)</li>
+            <li>Anti-nausée (Nautamine pour l'avion)</li>
+            <li>Pansements et désinfectant</li>
+            <li>Crème solaire haute protection</li>
+            <li>Anti-moustique selon la destination</li>
+            <li>Ordonnances + médicaments habituels en quantité suffisante</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>🔌 Tech & accessoires</h3>
+          <ul class="prep-list">
+            <li>Adaptateur universel (indispensable !)</li>
+            <li>Batterie externe (power bank) chargée</li>
+            <li>Écouteurs / casque antibruit pour l'avion</li>
+            <li>Cadenas pour les bagages et casiers d'auberge</li>
+            <li>Pochette anti-RFID pour cartes bancaires</li>
+            <li>Sac à dos de journée léger et pliable</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>📄 Documents</h3>
+          <ul class="prep-list">
+            <li>Passeport + photocopie séparée</li>
+            <li>Carte d'identité (en backup)</li>
+            <li>Assurance voyage (numéro d'urgence)</li>
+            <li>Carte européenne d'assurance maladie (voyages Europe)</li>
+            <li>Carnet de vaccination si requis</li>
+            <li>Photos d'identité (utiles pour visas sur place)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         PAIEMENT
+         ============================== -->
+    <section class="prep-section" id="paiement">
+      <h2 class="prep-title">💳 Moyens de paiement à l'étranger</h2>
+
+      <div class="prep-grid">
+        <div class="prep-card prep-card--highlight">
+          <h3>🏆 Carte bancaire sans frais — La solution idéale</h3>
+          <p>Certaines banques en ligne proposent des cartes sans frais à l'étranger :</p>
+          <ul class="prep-list">
+            <li><strong>Revolut</strong> — la référence, taux de change interbancaire, retraits gratuits jusqu'à 200€/mois</li>
+            <li><strong>Wise</strong> — idéal pour les virements et paiements en devise locale</li>
+            <li><strong>N26</strong> — compte bancaire européen sans frais de change</li>
+            <li><strong>Boursorama / Hello Bank</strong> — cartes Visa Premier sans frais selon formule</li>
+          </ul>
+          <p class="prep-tip">💡 Ouvre un compte Revolut avant de partir — c'est gratuit et sauve la mise à l'étranger.</p>
+        </div>
+
+        <div class="prep-card">
+          <h3>💵 Le cash — Quand l'emporter ?</h3>
+          <ul class="prep-list">
+            <li>Toujours avoir un peu de cash local à l'arrivée (taxi, pourboires)</li>
+            <li>Retirer dans les DAB locaux (éviter les bureaux de change à l'aéroport)</li>
+            <li>Certains pays fonctionnent encore beaucoup au cash (Japon, Maroc, pays d'Europe de l'Est)</li>
+            <li>Ne jamais changer de l'argent dans la rue</li>
+            <li>Répartir le cash en plusieurs endroits (sac, valise, pochette)</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>⚠️ Pièges à éviter</h3>
+          <ul class="prep-list">
+            <li><strong>Dynamic Currency Conversion (DCC)</strong> — toujours choisir de payer en devise locale, jamais en euros proposé par le terminal</li>
+            <li><strong>Bureaux de change aéroport</strong> — taux catastrophiques, éviter absolument</li>
+            <li><strong>Frais de retrait</strong> — certaines banques facturent 2-3% + commission fixe</li>
+            <li><strong>Bloquer sa carte</strong> — prévenir sa banque avant de partir</li>
+            <li><strong>Une seule carte</strong> — toujours avoir un backup (2 cartes différentes)</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>🌍 Par zone géographique</h3>
+          <ul class="prep-list">
+            <li><strong>Europe</strong> — carte bancaire acceptée partout, prévoir 50-100€ cash</li>
+            <li><strong>Asie du Sud-Est</strong> — cash roi, retirer sur place en monnaie locale</li>
+            <li><strong>Japon</strong> — encore très cash, retirer aux DAB 7-Eleven ou Japan Post</li>
+            <li><strong>USA/Canada</strong> — carte partout, pourboires en cash pratiques</li>
+            <li><strong>Amérique Latine</strong> — mix cash/carte, méfiance DAB isolés</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         SIM & INTERNET
+         ============================== -->
+    <section class="prep-section" id="sim">
+      <h2 class="prep-title">📱 SIM & Internet à l'étranger</h2>
+
+      <div class="prep-grid">
+        <div class="prep-card prep-card--highlight">
+          <h3>🏆 eSIM — La solution moderne</h3>
+          <p>Si ton téléphone est compatible eSIM (iPhone XS+, Android récent), c'est la solution la plus pratique :</p>
+          <ul class="prep-list">
+            <li><strong>Airalo</strong> — marketplace d'eSIM, couvre 200+ pays, s'active avant le départ</li>
+            <li><strong>Holafly</strong> — data illimitée dans de nombreux pays, très fiable</li>
+            <li><strong>Ubigi</strong> — bonne couverture Europe et Asie</li>
+          </ul>
+          <p class="prep-tip">💡 Active l'eSIM depuis le WiFi de l'aéroport dès l'arrivée — tu as internet immédiatement.</p>
+        </div>
+
+        <div class="prep-card">
+          <h3>📶 Options selon la destination</h3>
+          <ul class="prep-list">
+            <li><strong>Europe</strong> — ton forfait français inclut souvent le roaming EU (vérifier)</li>
+            <li><strong>Japon</strong> — acheter une SIM data à l'aéroport (IIJmio, DMM) ou eSIM</li>
+            <li><strong>USA</strong> — SIM T-Mobile ou AT&T à l'aéroport, très abordable</li>
+            <li><strong>Thaïlande</strong> — SIM DTAC ou AIS à l'aéroport, excellent rapport qualité/prix</li>
+            <li><strong>Pays hors EU</strong> — eSIM Airalo ou SIM locale à l'arrivée</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>📲 Apps indispensables hors-ligne</h3>
+          <ul class="prep-list">
+            <li><strong>Google Maps</strong> — télécharger la carte de la région avant de partir</li>
+            <li><strong>Maps.me</strong> — cartes offline très détaillées</li>
+            <li><strong>Google Translate</strong> — télécharger la langue pour utilisation offline</li>
+            <li><strong>XE Currency</strong> — convertisseur de devises offline</li>
+            <li><strong>Airbnb / Booking</strong> — sauvegarder les réservations offline</li>
+            <li><strong>Ton site 365Travel 😉</strong> — fonctionne hors-ligne !</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>🔒 Sécurité numérique</h3>
+          <ul class="prep-list">
+            <li>Éviter les WiFi publics non sécurisés (cafés, hôtels)</li>
+            <li>Utiliser un VPN si nécessaire (NordVPN, ExpressVPN)</li>
+            <li>Activer la double authentification sur les apps importantes</li>
+            <li>Ne pas laisser son téléphone sans surveillance</li>
+            <li>Sauvegarder ses photos régulièrement (cloud)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         SANTÉ
+         ============================== -->
+    <section class="prep-section" id="sante">
+      <h2 class="prep-title">🏥 Santé & assurance voyage</h2>
+
+      <div class="prep-grid">
+        <div class="prep-card prep-card--highlight">
+          <h3>🛡️ Assurance voyage — Indispensable !</h3>
+          <ul class="prep-list">
+            <li><strong>AXA Travel</strong> — couverture complète, rapatriement inclus</li>
+            <li><strong>Chapka</strong> — spécialiste voyage, formules adaptées</li>
+            <li><strong>Carte Visa Premier/Gold</strong> — inclut souvent une assurance voyage (vérifier les plafonds)</li>
+            <li><strong>MAIF Voyages</strong> — bonne couverture pour les adhérents</li>
+          </ul>
+          <p class="prep-tip">💡 Vérifier que l'assurance couvre : frais médicaux, rapatriement, annulation, vol de bagages et responsabilité civile.</p>
+        </div>
+
+        <div class="prep-card">
+          <h3>💉 Vaccins par destination</h3>
+          <ul class="prep-list">
+            <li><strong>Europe</strong> — vaccins courants français suffisants</li>
+            <li><strong>Asie du Sud-Est</strong> — Hépatite A&B, Typhoïde, Rage selon activités</li>
+            <li><strong>Japon/Corée</strong> — vaccins habituels suffisants</li>
+            <li><strong>Amérique Latine</strong> — Fièvre jaune (obligatoire certains pays), Hépatite A</li>
+            <li><strong>Afrique</strong> — Fièvre jaune, antipaludéens, nombreux vaccins</li>
+            <li>Consulter un médecin du voyage ou le site Pasteur 6-8 semaines avant</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>🩺 Carte Européenne d'Assurance Maladie</h3>
+          <ul class="prep-list">
+            <li>Valable dans les 27 pays de l'UE + Suisse, Norvège, Islande</li>
+            <li>À demander sur ameli.fr — gratuite et rapide</li>
+            <li>Couvre les soins médicaux nécessaires au tarif local</li>
+            <li>Ne remplace pas une assurance voyage (pas de rapatriement)</li>
+            <li>Valable 2 ans, renouveler si expirée</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>☀️ Conseils santé généraux</h3>
+          <ul class="prep-list">
+            <li>Jet lag : s'adapter à l'heure locale dès l'arrivée, éviter les siestes longues</li>
+            <li>Eau du robinet : se renseigner selon le pays (potable ou non)</li>
+            <li>Nourriture locale : y aller progressivement les premiers jours</li>
+            <li>Soleil : crème solaire même par temps nuageux, se réhydrater</li>
+            <li>Moustiques : répulsif DEET dans les zones tropicales</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         URGENCES
+         ============================== -->
+    <section class="prep-section" id="urgences">
+      <h2 class="prep-title">🆘 Numéros d'urgence & infos utiles</h2>
+
+      <div class="prep-grid">
+        <div class="prep-card prep-card--highlight">
+          <h3>📞 Numéros essentiels</h3>
+          <ul class="prep-list">
+            <li><strong>112</strong> — Numéro d'urgence européen universel (fonctionne dans toute l'UE)</li>
+            <li><strong>France depuis l'étranger</strong> — +33 (puis numéro sans le 0)</li>
+            <li><strong>Ambassade de France</strong> — à noter selon le pays de destination</li>
+            <li><strong>Numéro de ta banque</strong> — en cas de perte/vol de carte</li>
+            <li><strong>Numéro de ton assurance voyage</strong> — disponible 24h/24</li>
+          </ul>
+          <p class="prep-tip">💡 Enregistre tous ces numéros dans ton téléphone ET sur un papier dans ton sac.</p>
+        </div>
+
+        <div class="prep-card">
+          <h3>🆘 Numéros d'urgence par pays</h3>
+          <ul class="prep-list">
+            <li><strong>USA/Canada</strong> — 911</li>
+            <li><strong>Royaume-Uni</strong> — 999</li>
+            <li><strong>Australie</strong> — 000</li>
+            <li><strong>Japon</strong> — 110 (police) / 119 (pompiers/SAMU)</li>
+            <li><strong>Europe</strong> — 112 (universel)</li>
+            <li><strong>Thaïlande</strong> — 191 (police) / 1669 (ambulance)</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>🚨 En cas de vol ou perte</h3>
+          <ul class="prep-list">
+            <li>Faire une déclaration à la police locale (nécessaire pour l'assurance)</li>
+            <li>Bloquer immédiatement sa carte bancaire (app ou numéro d'urgence)</li>
+            <li>Contacter l'ambassade/consulat français en cas de perte de passeport</li>
+            <li>Avoir des photos de ses documents sur le cloud (Google Drive, iCloud)</li>
+            <li>Note : avoir une copie papier de son passeport séparée de l'original</li>
+          </ul>
+        </div>
+
+        <div class="prep-card">
+          <h3>🌐 Sites & ressources utiles</h3>
+          <ul class="prep-list">
+            <li><strong>diplomatie.gouv.fr</strong> — conseils aux voyageurs par pays, zones déconseillées</li>
+            <li><strong>pasteur.fr</strong> — recommandations sanitaires et vaccins</li>
+            <li><strong>ameli.fr</strong> — CEAM et remboursements à l'étranger</li>
+            <li><strong>xe.com</strong> — taux de change en temps réel</li>
+            <li><strong>skyscanner.fr</strong> — comparateur de vols</li>
+            <li><strong>airbnb.fr / booking.com</strong> — hébergements</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <a href="index.html" aria-label="Retour à l'accueil">
+        <div class="footer-col footer-left">
+          <img src="images/logo.png" alt="Logo 365 Travel" class="footer-logo">
+          <p>Explorez le monde à votre rythme 🌍</p>
+        </div>
+      </a>
+      <div class="footer-col footer-center">
+        <div class="footer-socials" aria-label="Réseaux sociaux">
+          <a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+          <a href="#" aria-label="YouTube"><img src="images/icon-youtube.svg" alt="YouTube"></a>
+          <a href="#" aria-label="X (Twitter)"><img src="images/icon-x.svg" alt="X (Twitter)"></a>
+        </div>
+      </div>
+      <div class="footer-col footer-right">
+        <nav aria-label="Liens légaux">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 365 Travel — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

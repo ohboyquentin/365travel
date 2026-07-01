@@ -3,7 +3,7 @@
 //  Mise en cache complète pour usage hors-ligne
 // =============================================
 
-const CACHE_NAME = "voyage-v2";
+const CACHE_NAME = "voyage-v3";
 
 // Fichiers essentiels à pré-charger dès l'installation
 const FILES_TO_CACHE = [
@@ -13,6 +13,7 @@ const FILES_TO_CACHE = [
   "./amerique.html",
   "./pays.html",
   "./pays.json",
+  "./preparatifs.html",
   "./style.css",
   "./script.js",
   "./manifest.json",
