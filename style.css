@@ -233,9 +233,11 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
   position: fixed;
   /* "top" est recalculé en JS pour coller juste sous le header */
   top: 4.5rem;
-  right: 1rem;
+  right: 0.5rem;
   left: auto;
-  width: min(80vw, 280px);
+  width: fit-content;
+  min-width: 160px;
+  max-width: min(80vw, 220px);
   height: auto;              /* s'arrête après le dernier élément */
   max-height: min(70vh, 420px);
   background: var(--surface);
