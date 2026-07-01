@@ -749,6 +749,26 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
 .flag-tr.info-flag::before {
   background: linear-gradient(to right, #c60c30 50%, #ffffff 50%);
 }
+/* 🇱🇻 Lettonie : Bordeaux - Blanc - Bordeaux */
+.flag-lv.info-flag::before {
+  background: linear-gradient(to right, #9e3039 33%, #ffffff 33% 66%, #9e3039 66%);
+}
+/* 🇱🇹 Lituanie : Jaune - Vert - Rouge */
+.flag-lt.info-flag::before {
+  background: linear-gradient(to right, #fdb913 33%, #006a44 33% 66%, #c1272d 66%);
+}
+/* 🇸🇰 Slovaquie : Blanc - Bleu - Rouge */
+.flag-sk.info-flag::before {
+  background: linear-gradient(to right, #ffffff 33%, #0b4ea2 33% 66%, #ef3340 66%);
+}
+/* 🇨🇦 Canada : Rouge - Blanc - Rouge */
+.flag-ca.info-flag::before {
+  background: linear-gradient(to right, #ff0000 33%, #ffffff 33% 66%, #ff0000 66%);
+}
+/* 🇳🇱 Pays-Bas : Rouge - Blanc - Bleu */
+.flag-nl.info-flag::before {
+  background: linear-gradient(to right, #ae1c28 33%, #ffffff 33% 66%, #21468b 66%);
+}
 /* Titre principal */
 .info-title {
   font-size: var(--fs-22);
@@ -874,6 +894,26 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
 /* Turquie tr */
 .flag-tr::after {
   background: linear-gradient(to right, #ef4135 50%, #ffffff 50%);
+}
+/* Lettonie 🇱🇻 */
+.flag-lv::after {
+  background: linear-gradient(to right, #9e3039 33%, #ffffff 33% 66%, #9e3039 66%);
+}
+/* Lituanie 🇱🇹 */
+.flag-lt::after {
+  background: linear-gradient(to right, #fdb913 33%, #006a44 33% 66%, #c1272d 66%);
+}
+/* Slovaquie 🇸🇰 */
+.flag-sk::after {
+  background: linear-gradient(to right, #ffffff 33%, #0b4ea2 33% 66%, #ef3340 66%);
+}
+/* Canada 🇨🇦 */
+.flag-ca::after {
+  background: linear-gradient(to right, #ff0000 33%, #ffffff 33% 66%, #ff0000 66%);
+}
+/* Pays-Bas 🇳🇱 */
+.flag-nl::after {
+  background: linear-gradient(to right, #ae1c28 33%, #ffffff 33% 66%, #21468b 66%);
 }
 .itineraire {
   max-width: 800px;
