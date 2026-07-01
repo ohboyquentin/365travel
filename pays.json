@@ -259,7 +259,7 @@
       {
         "numero": 1,
         "titre": "Cœur historique de Sofia",
-        "image": "images/Jour_1_Sofia.png",
+        "image": "images/Jour 1 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -298,7 +298,7 @@
       {
         "numero": 2,
         "titre": "Musées & mémoire bulgare",
-        "image": "images/Jour_2_Sofia.png",
+        "image": "images/Jour 2 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -336,7 +336,7 @@
       {
         "numero": 3,
         "titre": "Spiritualité & nature",
-        "image": "images/Jour_3_Sofia.png",
+        "image": "images/Jour 3 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -374,7 +374,7 @@
       {
         "numero": 4,
         "titre": "Quartiers alternatifs & détente",
-        "image": "images/Jour_4_Sofia.png",
+        "image": "images/Jour 4 Sofia.png",
         "alt": "Sofia",
         "sections": [
           {
@@ -486,7 +486,7 @@
       {
         "numero": 1,
         "titre": "Copenhague historique",
-        "image": "images/Jour_1_Danemark.png",
+        "image": "images/Jour 1 Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -526,7 +526,7 @@
       {
         "numero": 2,
         "titre": "Culture & design",
-        "image": "images/Jour_2_Danemark.png",
+        "image": "images/Jour 2 Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -564,7 +564,7 @@
       {
         "numero": 3,
         "titre": "Excursion à Helsingør & Hillerød",
-        "image": "images/Jour_3_Danemark.png",
+        "image": "images/Jour 3 Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -602,7 +602,7 @@
       {
         "numero": 4,
         "titre": "Copenhague alternative & hygge",
-        "image": "images/Jour_4_Danemark.png",
+        "image": "images/Jour 4 Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -641,7 +641,7 @@
       {
         "numero": 5,
         "titre": "Excursion à Roskilde & détente",
-        "image": "images/Jour_5_Danemark.png",
+        "image": "images/Jour 5 Danemark.png",
         "alt": "Danemark",
         "sections": [
           {
@@ -1223,7 +1223,7 @@
       {
         "numero": 1,
         "titre": "Tour du centre historique",
-        "image": "images/Jour_1_Budapest.png",
+        "image": "images/Jour 1 Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -1261,7 +1261,7 @@
       {
         "numero": 2,
         "titre": "Art, culture et vie locale",
-        "image": "images/Jour_2_Budapest.png",
+        "image": "images/Jour 2 Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -1297,7 +1297,7 @@
       {
         "numero": 3,
         "titre": "Histoire et détente",
-        "image": "images/Jour_3_Budapest.png",
+        "image": "images/Jour 3 Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -1335,7 +1335,7 @@
       {
         "numero": 4,
         "titre": "Escapade et Gastronomie",
-        "image": "images/Jour_4_Budapest.png",
+        "image": "images/Jour 4 Budapest.png",
         "alt": "Budapest",
         "sections": [
           {
@@ -2385,7 +2385,7 @@
       {
         "numero": 1,
         "titre": "Découverte du cœur historique",
-        "image": "images/Jour_1_Suède.png",
+        "image": "images/Jour 1 Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2425,7 +2425,7 @@
       {
         "numero": 2,
         "titre": "Art, musées et culture",
-        "image": "images/Jour_2_Suède.png",
+        "image": "images/Jour 2 Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2464,7 +2464,7 @@
       {
         "numero": 3,
         "titre": "Design, modernité et vie locale",
-        "image": "images/Jour_3_Suède.png",
+        "image": "images/Jour 3 Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2503,7 +2503,7 @@
       {
         "numero": 4,
         "titre": "Balade et détente",
-        "image": "images/Jour_4_Suède.png",
+        "image": "images/Jour 4 Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -2542,7 +2542,7 @@
       {
         "numero": 5,
         "titre": "Nature et Archipel",
-        "image": "images/Jour_5_Suède.png",
+        "image": "images/Jour 5 Suède.png",
         "alt": "Suède",
         "sections": [
           {
@@ -3418,6 +3418,684 @@
           "categorie": "🎟️ Activités",
           "prix": "300€ – 500€",
           "details": "Parks Pass + téléphériques + musées + Maid of the Mist"
+        }
+      ]
+    }
+  },
+  "lettonie": {
+    "id": "lettonie",
+    "nom": "Lettonie",
+    "drapeau": "🇱🇻",
+    "ville": "Riga",
+    "titre": "Voyage à Riga",
+    "image_hero": "images/riga.jpg",
+    "alt_hero": "Riga - Vieille ville",
+    "description_courte": "Riga, capitale de la Lettonie, est une ville envoûtante connue pour posséder le plus grand ensemble Art nouveau d'Europe.",
+    "description_longue": "Classée au patrimoine mondial de l'UNESCO, elle mêle architecture médiévale, façades sculptées et une scène culturelle vibrante, le tout au bord de la Daugava.",
+    "flag_class": "flag-lv",
+    "budget_class": "budget-lv",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Riga ?",
+        "texte": "De mai à septembre pour profiter des longues journées baltes. Juin-juillet est idéal avec jusqu'à 17h de lumière par jour."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 2h45 et 3h15."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "+1 heure."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Vieille ville médiévale",
+        "image": "",
+        "alt": "Riga",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Place de la Mairie</strong> (A) — cœur de la vieille ville, entourée de maisons de guilde et de la célèbre Maison des Têtes-Noires.",
+              "<strong>Maison des Têtes-Noires</strong> (B) — chef-d'œuvre gothique-renaissance reconstruit, l'un des bâtiments les plus photographiés de Riga.",
+              "<strong>Cathédrale du Dôme</strong> (C) — la plus grande église médiévale des pays baltes, avec un orgue monumental."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans la vieille ville — essayez le <em>rupjmaize</em> (pain de seigle noir letton) et la soupe grise des pois au lard."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Tour de Powder</strong> (D) — seule tour médiévale encore debout de l'ancienne muraille.",
+              "<strong>Château de Riga</strong> (E) — résidence du président de Lettonie depuis 1922, bord de rivière.",
+              "Balade le long de la <strong>Daugava</strong> (F) pour une vue panoramique sur la vieille ville."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans la vieille ville — restaurant <em>Lido</em> pour la cuisine lettone traditionnelle à prix raisonnable.",
+              "Soirée dans les bars et terrasses de la vieille ville."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Art nouveau & marchés",
+        "image": "",
+        "alt": "Riga",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Quartier <strong>Art nouveau</strong> autour de l'<strong>Alberta iela</strong> (A) — la rue la plus spectaculaire d'Europe pour ce style architectural, façades à têtes de lions, nymphes et masques.",
+              "<strong>Musée du Jugendstil</strong> (B) — appartement Art nouveau entièrement reconstitué, fascinant.",
+              "Balade sur <strong>Elizabetes iela et Strēlnieku iela</strong> (C) pour encore plus de façades exceptionnelles."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au <strong>Marché Central de Riga</strong> (D) — installé dans 5 hangars à zeppelins reconvertis, l'un des plus grands marchés couverts d'Europe, classé UNESCO."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite complète du <strong>Marché Central</strong> (D) — poissons fumés, fromages, artisanat letton, pain noir.",
+              "Quartier de <strong>Maskavas Forštate</strong> (E) — le quartier multiculturel historique de Riga, architecture en bois colorée.",
+              "<strong>Synagogue Gogoļa iela</strong> (F) — mémorial de la communauté juive de Riga."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée dans le quartier branché de <strong>Miera iela</strong> (G) — la rue la plus hype de Riga, cafés indépendants, restaurants locaux, bars à vins.",
+              "Essayez le <em>Riga Black Balsam</em>, la liqueur amère lettone emblématique."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Excursion — Jūrmala & plages",
+        "image": "",
+        "alt": "Lettonie",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Train depuis Riga vers <strong>Jūrmala</strong> (A), station balnéaire à 30 min — 33 km de plages de sable fin sur la mer Baltique.",
+              "Balade sur la <strong>rue piétonne Jomas iela</strong> (B) — boutiques, cafés, maisons en bois colorées du XIXe siècle."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner en bord de mer à Jūrmala — poisson frais, saumon balte fumé."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Plage de <strong>Majori ou Dzintari</strong> (C) — les plages les plus belles et les plus accessibles de Jūrmala.",
+              "Visite du <strong>Musée en plein air de la maison d'été</strong> (D) — villas Art nouveau en bois préservées.",
+              "Retour à Riga en fin d'après-midi."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner à Riga dans le quartier de <strong>Āgenskalns</strong> (E), de l'autre côté de la Daugava — ambiance locale loin des touristes.",
+              "Coucher de soleil depuis le pont <strong>Akmens tilts</strong> (F) sur la vieille ville illuminée."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Musées & détente",
+        "image": "",
+        "alt": "Riga",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée National d'Histoire de Lettonie</strong> (A) — retrace 11 000 ans d'histoire lettone, des premières tribus baltes à l'indépendance.",
+              "<strong>Musée de l'Occupation lettone</strong> (B) — incontournable pour comprendre les occupations soviétique et nazie, très bien documenté."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au restaurant <em>Folkklubs Ala Pagrabs</em> — cave médiévale avec concerts de musique folklorique live et cuisine lettone."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Montée au <strong>Clocher de Saint-Pierre</strong> (C) — panorama à 360° sur Riga et la Daugava depuis 72m de hauteur.",
+              "Dernière balade dans les <strong>ruelles de la vieille ville</strong> et achats de souvenirs — ambre baltique, lin letton, produits artisanaux."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner d'adieu à Riga.",
+              "Préparation pour le départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "L'<strong>ambre baltique</strong> est le souvenir typique de Riga — achète-le dans les boutiques officielles de la vieille ville pour éviter les contrefaçons.",
+      "Le <strong>Riga Card</strong> inclut les transports en commun et l'entrée dans de nombreux musées — très rentable sur 3-4 jours.",
+      "La vieille ville est entièrement piétonne et très compacte — tout se fait à pied facilement."
+    ],
+    "budget": {
+      "titre": "Budget 4 jours à Riga",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 140€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "30€ – 70€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "12€ – 20€ / jour",
+          "details": "Restaurants locaux très abordables"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "10€ (4 jours)",
+          "details": "Avec le Riga Card"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "30€ – 50€",
+          "details": "Musées + clocher + Jūrmala"
+        }
+      ]
+    }
+  },
+  "lituanie": {
+    "id": "lituanie",
+    "nom": "Lituanie",
+    "drapeau": "🇱🇹",
+    "ville": "Vilnius",
+    "titre": "Voyage à Vilnius",
+    "image_hero": "images/vilnius.jpg",
+    "alt_hero": "Vilnius - Vieille ville baroque",
+    "description_courte": "Vilnius, capitale de la Lituanie, possède l'une des plus grandes et mieux préservées vieilles villes baroques d'Europe, classée UNESCO.",
+    "description_longue": "Nichée au confluent de la Neris et de la Vilnia, elle surprend par ses clochers d'églises qui percent la ligne d'horizon, ses ruelles pavées colorées et son énergie créative unique dans les pays baltes.",
+    "flag_class": "flag-lt",
+    "budget_class": "budget-lt",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Vilnius ?",
+        "texte": "Mai à septembre est idéal. Juin-juillet pour les longues soirées d'été. Décembre pour les marchés de Noël parmi les plus beaux d'Europe."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 2h45 et 3h."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "+1 heure."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Vieille ville baroque",
+        "image": "",
+        "alt": "Vilnius",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Cathédrale de Vilnius</strong> (A) et son clocher séparé — la plus importante église de Lituanie, place immense avec le mystérieux <em>Stebuklas</em> (carreau magique).",
+              "<strong>Palais des Grands-Ducs</strong> (B) — résidence reconstituée des souverains du Grand-Duché de Lituanie, puissance majeure de l'Europe médiévale.",
+              "Montée à la <strong>Tour Gediminas</strong> (C) — symbole de Vilnius, panorama exceptionnel sur la vieille ville et ses clochers."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner sur la <strong>Place de la Mairie</strong> (D) — cœur animé de la vieille ville, entouré de restaurants proposant cuisine lituanienne traditionnelle."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Église Sainte-Anne</strong> (E) — chef-d'œuvre gothique flamboyant en brique rouge, Napoléon voulait la transporter à Paris dans sa main.",
+              "<strong>Église Saint-Bernardin</strong> (F) juste à côté.",
+              "Balade dans les ruelles de la vieille ville — <strong>Pilies gatvė</strong> (G), l'artère principale commerçante et animée."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner à Vilnius — essayez les <em>cepelinai</em> (zeppelins de pomme de terre farcis à la viande, plat national lituanien).",
+              "Verre dans les bars de la <strong>Užupis</strong> (H), le quartier artistique indépendant."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Užupis & quartier juif",
+        "image": "",
+        "alt": "Vilnius",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>République d'Užupis</strong> (A) — quartier bohème autoproclamé \"indépendant\" le 1er avril, avec sa propre constitution affichée sur un mur en 37 langues. Ambiance unique, street art, ateliers d'artistes.",
+              "<strong>Ange d'Užupis</strong> (B) — statue emblématique sur une colonne au bord de la rivière Vilnia, symbole du quartier."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans un café d'Užupis — atmosphère créative et détendue, cuisine locale revisitée."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Visite du <strong>Quartier juif</strong> (C) — Vilnius était surnommée \"La Jérusalem de Lituanie\", visite du musée de la communauté juive et du Gaon de Vilna.",
+              "<strong>Musée de l'Occupation et des Luttes pour la Liberté</strong> (D) — ancienne prison du KGB soviétique, cellules préservées, témoignages poignants.",
+              "<strong>Église Saint-Casimir</strong> (E) — première et plus grande église baroque de Vilnius."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Soirée dans la <strong>Rue Gedimino</strong> (F) — l'avenue principale moderne de Vilnius, bars, restaurants, terrasses animées.",
+              "Dîner dans un restaurant du centre ville."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Excursion — Trakai & château lacustre",
+        "image": "",
+        "alt": "Lituanie",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Bus ou voiture vers <strong>Trakai</strong> (A), à 28 km de Vilnius (40 min).",
+              "<strong>Château de Trakai</strong> (B) — château médiéval spectaculaire construit sur une île entourée de lacs, l'un des sites les plus emblématiques des pays baltes.",
+              "Visite du musée intérieur du château."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner à Trakai — essayez les <em>kibinai</em>, petits chaussons farcis typiques de la communauté Karaïte de Trakai, spécialité unique en Europe."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Balade autour du <strong>Lac Galvė</strong> (C) — location de kayak ou pédalo pour une vue unique sur le château depuis l'eau.",
+              "Visite du <strong>village karaïte</strong> (D) — communauté turco-mongole installée à Trakai au XIVe siècle, maisons traditionnelles à trois fenêtres.",
+              "Retour à Vilnius en fin d'après-midi."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner à Vilnius.",
+              "Soirée libre dans la vieille ville."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Musées & panoramas",
+        "image": "",
+        "alt": "Vilnius",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Musée National de Lituanie</strong> (A) — histoire du pays de la préhistoire à nos jours.",
+              "<strong>Musée d'Art National Čiurlionis</strong> (B) — dédié au peintre et compositeur national lituanien, œuvres symbolistes uniques."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au marché <strong>Halės turgus</strong> (C) — marché couvert historique avec street food lituanienne variée."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Montée à la <strong>Colline des Trois Croix</strong> (D) — symbole de résistance lituanienne, panorama spectaculaire sur toute la vieille ville.",
+              "Balade dans le parc de <strong>Vingis</strong> (E), le grand parc de Vilnius, au bord de la Neris.",
+              "Derniers achats — ambre baltique, lin lituanien, chocolats <em>Rūta</em>."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner d'adieu à Vilnius.",
+              "Préparation pour le départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Vilnius est très compacte et entièrement faisable à pied — prévois de bonnes chaussures pour les pavés.",
+      "Ne manque pas la <strong>République d'Užupis</strong> le 1er avril — fête de l'indépendance avec concerts, fête et passeport tamponné !",
+      "Le <strong>Vilnius City Card</strong> couvre transports et musées — utile si tu veux tout visiter."
+    ],
+    "budget": {
+      "titre": "Budget 4 jours à Vilnius",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "80€ – 140€",
+          "details": "Depuis Paris, variable selon la saison"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "25€ – 60€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "10€ – 18€ / jour",
+          "details": "Restaurants locaux très abordables"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "10€ (4 jours)",
+          "details": "Bus + excursion Trakai"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "25€ – 45€",
+          "details": "Musées + château de Trakai + panoramas"
+        }
+      ]
+    }
+  },
+  "slovaquie": {
+    "id": "slovaquie",
+    "nom": "Slovaquie",
+    "drapeau": "🇸🇰",
+    "ville": "Bratislava",
+    "titre": "Voyage à Bratislava",
+    "image_hero": "images/bratislava.jpg",
+    "alt_hero": "Bratislava - Château et vieille ville",
+    "description_courte": "Bratislava, la plus petite capitale de l'Union Européenne, est une ville attachante perchée sur le Danube, à deux pas de Vienne et Budapest.",
+    "description_longue": "Son château emblématique domine une vieille ville piétonne compacte et animée, pleine de statues originales, de caves à vin et d'une atmosphère décontractée qui lui est propre.",
+    "flag_class": "flag-sk",
+    "budget_class": "budget-sk",
+    "infos": [
+      {
+        "emoji": "📅",
+        "titre": "À quelle période partir à Bratislava ?",
+        "texte": "Avril à octobre est idéal. Le printemps (mai-juin) est parfait — pas trop chaud, tout est fleuri. Décembre pour les marchés de Noël."
+      },
+      {
+        "emoji": "🛂",
+        "titre": "Papiers nécessaires",
+        "texte": "Carte d'identité en cours de validité ou passeport."
+      },
+      {
+        "emoji": "✈️",
+        "titre": "Durée de vol direct depuis Paris",
+        "texte": "Entre 1h45 et 2h15."
+      },
+      {
+        "emoji": "🕒",
+        "titre": "Décalage horaire",
+        "texte": "Aucun."
+      }
+    ],
+    "nb_jours": 4,
+    "jours": [
+      {
+        "numero": 1,
+        "titre": "Vieille ville & château",
+        "image": "",
+        "alt": "Bratislava",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Château de Bratislava</strong> (A) — dominant le Danube depuis 80m de hauteur, vue spectaculaire sur la ville, l'Autriche et la Hongrie depuis les terrasses. Musée national à l'intérieur.",
+              "Descente à pied vers la vieille ville par les ruelles historiques."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner dans la vieille ville — essayez le <em>bryndzové halušky</em> (gnocchis aux pommes de terre avec fromage de brebis et lard, plat national slovaque)."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "<strong>Place Principale (Hlavné námestie)</strong> (B) — cœur de la vieille ville avec la fontaine Roland et ses terrasses animées.",
+              "<strong>Hôtel de Ville Ancien</strong> (C) et son musée de la ville.",
+              "<strong>Cathédrale Saint-Martin</strong> (D) — où 19 rois de Hongrie ont été couronnés, juste à côté du château.",
+              "Cherche les <strong>statues originales</strong> dispersées dans la vieille ville — Čumil (l'homme qui sort du sol), le Napoléon et le Schöner Näci (E)."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner dans une cave à vin slovaque — la Slovaquie produit d'excellents vins blancs (Riesling, Welschriesling).",
+              "Soirée dans les bars de la <strong>Rue Obchodná</strong> (F), l'artère la plus animée du soir."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "titre": "Bratislava moderne & collines",
+        "image": "",
+        "alt": "Bratislava",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Pont SNP (Most SNP)</strong> (A) — le pont ovni de Bratislava, avec son restaurant panoramique en forme de soucoupe volante à 85m de hauteur — vue imprenable sur le Danube et la ville.",
+              "Quartier de <strong>Petržalka</strong> (B) juste de l'autre côté — plus grand quartier de blocs soviétiques d'Europe, contraste saisissant avec la vieille ville."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner au marché <strong>Miletičova</strong> (C) — marché alimentaire local loin des touristes, authentique et très abordable."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Randonnée ou balade dans les <strong>Petits Carpates</strong> (D) — chaîne de collines boisées démarrant à 10 min du centre, nombreux sentiers balisés et caves à vin dans les villages.",
+              "Visite du village de <strong>Svätý Jur</strong> (E) — charmant village viticole au pied des Carpates avec maisons médiévales préservées."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Retour à Bratislava, dîner dans le quartier branché de <strong>Staré Mesto</strong>.",
+              "Verre dans un rooftop bar avec vue sur le château illuminé."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "Excursion — Devin & Danube",
+        "image": "",
+        "alt": "Slovaquie",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "Bus vers les <strong>Ruines du Château de Devín</strong> (A), à 12 km de Bratislava — forteresse spectaculaire à la confluence du Danube et de la Morava, à la frontière de l'Autriche.",
+              "Le site était un point de passage du Rideau de Fer — mémorial émouvant aux victimes qui tentaient de fuir."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Pique-nique avec vue sur le Danube ou restaurant à Devín."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Retour à Bratislava en bateau le long du Danube (option très agréable en été).",
+              "<strong>Musée de la Ville de Bratislava</strong> (B) dans l'ancien Hôtel de Ville.",
+              "Balade le long des <strong>berges du Danube</strong> (C) — promenade aménagée avec vue sur le château."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner typique slovaque — <em>kapustnica</em> (soupe de choucroute au saucisson), <em>šúľance</em> (nouilles au pavot).",
+              "Dernière soirée animée dans la vieille ville."
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Musées & derniers instants",
+        "image": "",
+        "alt": "Bratislava",
+        "sections": [
+          {
+            "label": "Matin",
+            "type": "liste",
+            "contenu": [
+              "<strong>Galerie Nationale Slovaque</strong> (A) — art médiéval, baroque et moderne slovaque dans un bâtiment à l'architecture controversée.",
+              "<strong>Musée Juif</strong> (B) et synagogue — communauté juive historiquement importante à Bratislava."
+            ]
+          },
+          {
+            "label": "Déjeuner",
+            "type": "texte",
+            "contenu": "Déjeuner final dans la vieille ville — terrasse sur la Place Principale pour profiter de l'ambiance."
+          },
+          {
+            "label": "Après-midi",
+            "type": "liste",
+            "contenu": [
+              "Montée une dernière fois au <strong>Château</strong> (C) pour les photos de fin.",
+              "Shopping souvenirs — magnets originaux avec les statues de Bratislava, vins des Petits Carpates, poteries slovaques.",
+              "Flânerie dans les dernières ruelles de la vieille ville."
+            ]
+          },
+          {
+            "label": "Soir",
+            "type": "liste",
+            "contenu": [
+              "Dîner d'adieu à Bratislava.",
+              "Préparation pour le départ."
+            ]
+          }
+        ]
+      }
+    ],
+    "conseils": [
+      "Bratislava est à <strong>1h de Vienne en train</strong> et <strong>2h de Budapest</strong> — parfait pour combiner plusieurs capitales en un seul voyage.",
+      "Cherche toutes les <strong>statues originales</strong> dans la vieille ville — c'est un jeu de piste amusant et les statues sont vraiment insolites !",
+      "Les vins blancs des <strong>Petits Carpates</strong> sont excellents et très peu connus en dehors de Slovaquie — profites-en pour en rapporter."
+    ],
+    "budget": {
+      "titre": "Budget 4 jours à Bratislava",
+      "lignes": [
+        {
+          "categorie": "✈️ Vol A/R",
+          "prix": "60€ – 120€",
+          "details": "Depuis Paris, l'une des capitales les moins chères d'accès"
+        },
+        {
+          "categorie": "🏨 Hébergement",
+          "prix": "25€ – 60€ / nuit",
+          "details": "Airbnb ou hôtels 3★"
+        },
+        {
+          "categorie": "🍽️ Repas",
+          "prix": "10€ – 18€ / jour",
+          "details": "Restaurants locaux très abordables"
+        },
+        {
+          "categorie": "🚇 Transports",
+          "prix": "8€ (4 jours)",
+          "details": "Bus + bateau Devín"
+        },
+        {
+          "categorie": "🎟️ Activités",
+          "prix": "25€ – 40€",
+          "details": "Château + musées + panoramas"
         }
       ]
     }
