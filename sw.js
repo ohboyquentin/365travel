@@ -3,7 +3,7 @@
 //  Mise en cache complète pour usage hors-ligne
 // =============================================
 
-const CACHE_NAME = "voyage-v9";
+const CACHE_NAME = "voyage-v2";
 
 // Fichiers essentiels à pré-charger dès l'installation
 const FILES_TO_CACHE = [
