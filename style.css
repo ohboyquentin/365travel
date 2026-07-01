@@ -228,7 +228,7 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
   .drawer {
     display: none;
     position: fixed;
-    top: 56px;
+    top: 90px;
     left: 0;
     right: 0;
     z-index: 100;
