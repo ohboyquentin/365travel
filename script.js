@@ -118,6 +118,8 @@
       top: headerH + 'px',
       left: '0',
       right: '0',
+      width: 'auto',
+      minWidth: '200px',
       zIndex: '9999',
       background: 'var(--bg, #0d0d0f)',
       borderBottom: '1px solid var(--border, #21232a)',
