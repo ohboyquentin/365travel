@@ -225,6 +225,69 @@ nav.primary a[aria-current="page"] { color: var(--text); font-weight: 600; }
   nav.primary { display: none; }
   .hamburger { display: inline-flex; align-items: center; gap:.5rem; }
 }
+
+/* ------------------------------
+   DRAWER MOBILE (menu hamburger)
+   ------------------------------ */
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: min(80vw, 320px);
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+  z-index: 1000;
+  padding: 5rem 1.5rem 2rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+  visibility: hidden;
+}
+
+.drawer.open {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+/* Le nav cloné dans le drawer doit redevenir visible et vertical */
+.drawer nav.primary {
+  display: block;
+}
+
+.drawer nav.primary ul {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.drawer .submenu {
+  position: static;
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+  border: none;
+  padding-left: 1rem;
+  min-width: unset;
+}
+
+/* Overlay derrière le drawer pour fermer au clic en dehors */
+.drawer::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  right: min(80vw, 320px);
+  background: rgba(0,0,0,0.4);
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.drawer.open::before {
+  opacity: 1;
+  pointer-events: auto;
+}
 /* ------------------------------
    HERO
    ------------------------------ */
